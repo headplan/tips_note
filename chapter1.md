@@ -50,3 +50,7 @@ Wiki [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://gith
 
 * tig - gitlog展示工具\(https:\/\/github.com\/jonas\/tig\)
 
+### 其他工具
+
+* ccat - cat高亮工具\(https:\/\/github.com\/jingweno\/ccat\)
+
