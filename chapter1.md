@@ -44,8 +44,7 @@ Wiki
 * zsh-autosuggestions - 自动提示\(https:\/\/github.com\/zsh-users\/zsh-autosuggestions\)
 * 
 
+**主题 :**
 
-主题 :
-
-Vim
+### Vim
 
