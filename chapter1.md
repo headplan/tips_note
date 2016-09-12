@@ -27,13 +27,9 @@ via** **wget
 
 **插件 :**
 
-目录
+目录 [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/tree\/master\/plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins)
 
-[https:\/\/github.com\/robbyrussell\/oh-my-zsh\/tree\/master\/plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins)
-
-Wiki
-
-[https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
+Wiki [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 
 配置
 
