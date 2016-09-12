@@ -44,3 +44,9 @@ Wiki [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://gith
 
 ### Vim
 
+### Git
+
+插件
+
+* tig - gitlog展示工具\(https:\/\/github.com\/jonas\/tig\)
+
