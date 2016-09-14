@@ -43,6 +43,15 @@ Wiki [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://gith
 
 * web-search - 直接在命令行输入baidu 字符,进行搜索,也可以使用google或bing
 
+
+* last-working-dir - 记录上次访问的路径,下次登录直接到这个路径
+* wd - 创建快速切换到目录的快捷命令,在当前目录输入\(wd add 快捷命令\),在其他目录输入wd 快捷命令就会直接跳过来
+  * wd add - 添加映射
+  * wd rm - 删除映射
+  * wd show - 展示映射
+
+
+
 **主题 :**
 
 ### Vim
