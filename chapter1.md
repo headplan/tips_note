@@ -39,7 +39,7 @@ Wiki [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://gith
 
 * zsh-autosuggestions - 自动提示\(https:\/\/github.com\/zsh-users\/zsh-autosuggestions\)
 
-* zsh-syntax-highlighting - git@github.com:zsh-users\/zsh-syntax-highlighting.git
+* zsh-syntax-highlighting - 命令行判断是否有错误\(git@github.com:zsh-users\/zsh-syntax-highlighting.git\)
 
 
 **主题 :**
