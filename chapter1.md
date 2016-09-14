@@ -61,6 +61,16 @@ Mac安装新版本
 brew install vim --with-lua --with-override-system-vi
 ```
 
+Mac安装GUI版本
+
+```
+brew install macvim --with-lua --with-override-system-vim
+```
+
+目前Vim安装的工具包是K-Vim,但是不太喜欢样式:
+
+https:\/\/github.com\/wklken\/k-vim
+
 ### Git
 
 插件
