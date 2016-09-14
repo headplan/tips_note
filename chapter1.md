@@ -51,10 +51,15 @@ Wiki [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://gith
   * wd show - 展示映射
 
 
-
 **主题 :**
 
 ### Vim
+
+Mac安装新版本
+
+```
+brew install vim --with-lua --with-override-system-vi
+```
 
 ### Git
 
