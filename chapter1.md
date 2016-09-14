@@ -38,9 +38,12 @@ Wiki [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://gith
 安装的插件
 
 * zsh-autosuggestions - 自动提示\(https:\/\/github.com\/zsh-users\/zsh-autosuggestions\)
-* 
 
-**主题 :**
+* git@github.com:zsh-users\/zsh-syntax-highlighting.git
+
+
+  **主题 :**
+
 
 ### Vim
 
