@@ -37,9 +37,9 @@ Wiki [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://gith
 
 安装的插件
 
-* zsh-autosuggestions - 自动提示\(https:\/\/github.com\/zsh-users\/zsh-autosuggestions\)
+* zsh-autosuggestions - 自动提示\(https:\/\/github.com\/zsh-users\/zsh-autosuggestions.git\)
 
-* zsh-syntax-highlighting - 命令行判断是否有错误\(git@github.com:zsh-users\/zsh-syntax-highlighting.git\)
+* zsh-syntax-highlighting - 命令行判断是否有错误\(https:\/\/github.com\/zsh-users\/zsh-syntax-highlighting.git\)
 
 * web-search - 直接在命令行输入baidu 字符,进行搜索,也可以使用google或bing
 
