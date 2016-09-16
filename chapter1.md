@@ -73,6 +73,10 @@ brew install macvim --with-lua --with-override-system-vim
 
 https:\/\/github.com\/wklken\/k-vim
 
+配置文件参考了k-vim的配置
+
+详细内容在vimrc配置中
+
 ### Git
 
 插件
