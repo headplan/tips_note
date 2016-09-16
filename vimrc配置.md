@@ -165,3 +165,15 @@ set whichwrap+=<,>,h,l
 
 
 
+
+
+
+
+### 主题设置
+
+**主题选择Solarized**
+
+https:\/\/github.com\/altercation\/vim-colors-solarized
+
+> 注:配置之后,需要先设置iterm2的背景为solarized的dark\(Preferences&gt;Profiles&gt;Colors\)
+
