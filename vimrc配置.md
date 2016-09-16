@@ -135,17 +135,33 @@ set selectmode=mouse,key
 ```
 
 ```
-" 修改命令行标题set title" 去掉输入错误的提示声音set novisualbellset noerrorbellsset t_vb=set tm=500
+" 修改命令行标题
+set title
+" 去掉输入错误的提示声音
+set novisualbell
+set noerrorbells
+set t_vb=
+set tm=500
 ```
 
 ```
-" 配置viminfo文件信息,排除%号set viminfo^=%
+" 配置viminfo文件信息,排除%号
+set viminfo^=%
 ```
 
 ```
-" 开启正则表达式magicset magic
+" 开启正则表达式magic
+set magic
 ```
 
 ```
-" 修复退格键删除内容的bugset backspace=eol,start,indent" 修改光标移动位置的bugset whichwrap+=<,>,h,l
+" 修复退格键删除内容的bug
+set backspace=eol,start,indent
+" 修改光标移动位置的bug
+set whichwrap+=<,>,h,l
 ```
+
+### 展示\/排版等界面格式设置
+
+
+
