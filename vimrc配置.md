@@ -115,4 +115,6 @@ set cursorline
 ```
 
 ```
+" 退出后,内容显示在终端屏幕set t_ti= t_te=
 ```
+
