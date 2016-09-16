@@ -48,3 +48,27 @@ filetype plugin indent on
 
 ### 基础设置
 
+```
+" history存储容量
+set history=2000
+```
+
+```
+" 检测文件类型
+filetype on
+" 针对不同的文件类型采用不同的缩进格式
+filetype indent on
+" 允许插件
+filetype plugin on
+" 启动自动补全
+filetype plugin indent on
+```
+
+```
+" 文件修改之后自动载入
+set autoread
+" 启动的时候不显示援助乌干达儿童的提示
+set shortmess=atI
+```
+
+
