@@ -35,6 +35,8 @@ Wiki [https:\/\/github.com\/robbyrussell\/oh-my-zsh\/wiki\/Plugins](https://gith
 
 编辑~\/.zshrc文件 , like plugins=\(git bundler osx rake ruby\) . 更详细的内容可以查看上面的目录和 Wiki .
 
+plugins=\(git history jsontools zsh-autosuggestions zsh-syntax-highlighting web-search wd\)
+
 安装的插件
 
 * zsh-autosuggestions - 自动提示\(https:\/\/github.com\/zsh-users\/zsh-autosuggestions.git\)
