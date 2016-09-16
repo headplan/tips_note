@@ -115,7 +115,8 @@ set cursorline
 ```
 
 ```
-" 退出后,内容显示在终端屏幕set t_ti= t_te=
+" 退出后,内容显示在终端屏幕
+set t_ti= t_te=
 ```
 
 ```
@@ -132,5 +133,4 @@ set mousehide
 set selection=inclusive
 set selectmode=mouse,key
 ```
-
 
