@@ -127,5 +127,10 @@ set mouse=a
 set mousehide
 ```
 
+```
+" 修复ctrl+m 多光标操作选择的bug，但是改变了ctrl+v进行字符选中时将包含光标下的字符(功能未知)
+set selection=inclusive
+set selectmode=mouse,key
+```
 
 
