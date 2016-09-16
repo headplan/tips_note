@@ -119,7 +119,12 @@ set cursorline
 ```
 
 ```
-" 停用鼠标" set mouse-=a" 启用鼠标set mouse=a" 打字时隐藏鼠标set mousehide
+" 停用鼠标
+" set mouse-=a
+" 启用鼠标
+set mouse=a
+" 打字时隐藏鼠标
+set mousehide
 ```
 
 
