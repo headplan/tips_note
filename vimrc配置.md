@@ -77,6 +77,14 @@ set backup
 set backupext=.bak
 set backupdir=~/.vim/vimbak/
 ```
+
+```
+" 取消备份.
+" set nobackup
+" 关闭交换文件
+set noswapfile
+```
+
 设置支持undo,具体参考像IDE一样使用vim
 
 ```
