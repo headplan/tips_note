@@ -134,3 +134,18 @@ set selection=inclusive
 set selectmode=mouse,key
 ```
 
+```
+" 修改命令行标题set title" 去掉输入错误的提示声音set novisualbellset noerrorbellsset t_vb=set tm=500
+```
+
+```
+" 配置viminfo文件信息,排除%号set viminfo^=%
+```
+
+```
+" 开启正则表达式magicset magic
+```
+
+```
+" 修复退格键删除内容的bugset backspace=eol,start,indent" 修改光标移动位置的bugset whichwrap+=<,>,h,l
+```
