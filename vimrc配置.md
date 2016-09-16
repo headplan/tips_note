@@ -118,3 +118,9 @@ set cursorline
 " 退出后,内容显示在终端屏幕set t_ti= t_te=
 ```
 
+```
+" 停用鼠标" set mouse-=a" 启用鼠标set mouse=a" 打字时隐藏鼠标set mousehide
+```
+
+
+
