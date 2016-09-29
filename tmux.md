@@ -63,3 +63,9 @@ bind R source-file ~/.tmux.conf ; display-message "Config reloaded.."
 
 配置之后,按`Ctrl-b + r`配置文件的修改立即生效
 
+**Tmux的功能**
+
+**窗格**
+
+C-b % 开启窗格
+
