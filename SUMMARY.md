@@ -8,4 +8,5 @@
     * [Tmux](tmux.md)
         * [Tmux配置](tmux配置.md)
     * [iTerm2](it.md)
+* [Alfred](alfred.md)
 
