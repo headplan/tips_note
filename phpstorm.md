@@ -41,7 +41,13 @@ cd opt/PhpStorm-*/bin
 在 ~/.gnome/apps 和 ~/.local/share/applications 为自己创建
 ```
 
+#### 注册PHPStorm
 
+三种方式
+
+* 激活码
+* 许可证
+* 账户
 
 
 
