@@ -4,6 +4,10 @@
 
 [https://www.jetbrains.com/help/phpstorm/2016.3/meet-phpstorm.html](https://www.jetbrains.com/help/phpstorm/2016.3/meet-phpstorm.html)
 
+官方插件
+
+https://plugins.jetbrains.com/
+
 #### 系统需求
 
 * 最低1G内存,建议2G内存
