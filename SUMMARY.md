@@ -9,4 +9,5 @@
         * [Tmux配置](tmux配置.md)
     * [iTerm2](it.md)
 * [IDE](ide.md)
+    * [PHPStorm](phpstorm.md)
 
