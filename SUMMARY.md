@@ -10,4 +10,5 @@
     * [iTerm2](it.md)
 * [IDE](ide.md)
     * [PHPStorm](phpstorm.md)
+        * [快速入门](快速入门.md)
 
