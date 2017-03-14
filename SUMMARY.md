@@ -10,7 +10,7 @@
   * [iTerm2](it.md)
   * zsh
   * Git
-  * Psysh
+  * [PsySH](psysh.md)
   * Screen
 * [IDE](ide.md)
   * [PHPStorm](phpstorm.md)
