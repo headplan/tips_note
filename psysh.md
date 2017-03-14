@@ -55,5 +55,9 @@ $ cd psydh
 $ wget http://psysh.org/manual/zh/php_manual.sqlite
 ```
 
+> 文档展示自带more的相关功能 , 使用doc命令查看文档 , 当然自定义的对象也可以使用doc命令 , 读取展示注释内容
+
+### 应用场景
+
 
 
