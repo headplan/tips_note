@@ -4,7 +4,7 @@ PHP交互式控制台
 
 PsySH is a runtime developer console, interactive debugger and REPL for PHP.
 
-PsySH是一个PHP的运行时开发平台，交互式调试器和Read-Eval-Print Loop \([REPL](https://zh.wikipedia.org/wiki/%E8%AF%BB%E5%8F%96%EF%B9%A3%E6%B1%82%E5%80%BC%EF%B9%A3%E8%BE%93%E5%87%BA%E5%BE%AA%E7%8E%AF)\)
+PsySH是一个PHP的运行时开发平台，交互式调试器和Read-Eval-Print Loop \([REPL](https://zh.wikipedia.org/wiki/读取﹣求值﹣输出循环)\)
 
 说的简单点，就像你用[firebug](http://getfirebug.com/)的console调试你的JavaScript代码一样。
 
@@ -36,5 +36,11 @@ composer global require psy/psysh
 >
 > 文件路径 : psysh/src/Psy/VersionUpdater/IntervalChecker.php
 
+### 功能特性
 
+PsySH是一个交互式的PHP运行控制台，可以写php代码运行，并且可以清楚看到每次的返回值 . 
+
+并且，它很智能地知道你的代码是否已经结束 . 例如写一个函数 , 它能分清花括号结束 . 
+
+PsySH可以像控制台那样，按下两次`[tab]`键自动补全，帮你自动完成变量名，函数，类，方法，属性，甚至是文件 . 
 
