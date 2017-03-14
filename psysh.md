@@ -38,9 +38,22 @@ composer global require psy/psysh
 
 ### 功能特性
 
-PsySH是一个交互式的PHP运行控制台，可以写php代码运行，并且可以清楚看到每次的返回值 . 
+PsySH是一个交互式的PHP运行控制台，可以写php代码运行，并且可以清楚看到每次的返回值 .
 
-并且，它很智能地知道你的代码是否已经结束 . 例如写一个函数 , 它能分清花括号结束 . 
+并且，它很智能地知道你的代码是否已经结束 . 例如写一个函数 , 它能分清花括号结束 .
 
-PsySH可以像控制台那样，按下两次`[tab]`键自动补全，帮你自动完成变量名，函数，类，方法，属性，甚至是文件 . 
+PsySH可以像控制台那样，按下两次`[tab]`键自动补全，帮你自动完成变量名，函数，类，方法，属性，甚至是文件 .
+
+PsySH还提供了可以即时查看的文档 , 存放在`~/.local/share/psysh/`
+
+**下载中文文档**
+
+```
+$ cd ~/.local/share 
+$ mkdir psysh
+$ cd psydh
+$ wget http://psysh.org/manual/zh/php_manual.sqlite
+```
+
+
 
