@@ -14,7 +14,6 @@
 
 * 安装了 git
 
-
 **安装 :**
 
 via curl
@@ -45,13 +44,11 @@ plugins=\(git history jsontools zsh-autosuggestions zsh-syntax-highlighting web-
 
 * web-search - 直接在命令行输入baidu 字符,进行搜索,也可以使用google或bing
 
-
 * last-working-dir - 记录上次访问的路径,下次登录直接到这个路径
 * wd - 创建快速切换到目录的快捷命令,在当前目录输入\(wd add 快捷命令\),在其他目录输入wd 快捷命令就会直接跳过来
   * wd add - 添加映射
   * wd rm - 删除映射
   * wd show - 展示映射
-
 
 **主题 :**
 
@@ -86,4 +83,6 @@ https:\/\/github.com\/wklken\/k-vim
 ### 其他工具
 
 * ccat - cat高亮工具\(https:\/\/github.com\/jingweno\/ccat\)
+
+
 

@@ -8,6 +8,10 @@
   * [Tmux](tmux.md)
     * [Tmux配置](tmux配置.md)
   * [iTerm2](it.md)
+  * zsh
+  * Git
+  * Psysh
+  * Screen
 * [IDE](ide.md)
   * [PHPStorm](phpstorm.md)
     * [快速入门](快速入门.md)
