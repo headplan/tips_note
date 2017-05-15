@@ -60,7 +60,7 @@ command + ,
 
 以上列出这些的意义 , 是希望我们可以根据自己的喜好 , 自定义你想精简的部分 , 善用Command + , 和搜索相关的配置 .
 
-现在你想隐藏编辑器右侧的浏览器图标 , 应该怎么办 ? 大家可以尝试一下 . 
+现在你想隐藏编辑器右侧的浏览器图标 , 应该怎么办 ? 大家可以尝试一下 .
 
 现在 , 我们的PHPStorm已经清爽了许多 , 如图1-3
 
@@ -88,7 +88,7 @@ cd ~/Library/Preferences/PhpStorm2017.*/colors
 ```
 
 ```
-wget https://raw.githubusercontent.com/daylerees/colour-schemes/master/jetbrains/darkside.icls
+wget https://raw.githubusercontent.com/daylerees/colour-schemes/master/jetbrains/contrast/darkside-contrast.icls
 ```
 
 隐藏掉边栏和上面的所有 , 我们该如何打开 , 查找 , 编辑文件呢 . 下面的一组快捷键 , 会让你彻底改变原有的习惯 .
