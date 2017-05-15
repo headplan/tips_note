@@ -106,8 +106,6 @@ wget https://raw.githubusercontent.com/dracula/jetbrains/7c411825e05161b3ff408db
 
 找到了Color Ide , install安装 , 重启IDE , 然后使用Command + 1 , 颜色一致了 .
 
-> 这里提供第二种解决方案 , 下载IDE主题插件Material Theme UI , 大家可以自行尝试 .
-
 万事俱备 , 只差Vi . 推荐插件
 
 * ideaVim
