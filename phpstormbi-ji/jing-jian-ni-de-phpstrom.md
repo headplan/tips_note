@@ -108,7 +108,12 @@ wget https://raw.githubusercontent.com/dracula/jetbrains/7c411825e05161b3ff408db
 
 > 这里提供第二种解决方案 , 下载IDE主题插件Material Theme UI , 大家可以自行尝试 .
 
-万事俱备 , 只差Vi . 
+万事俱备 , 只差Vi . 推荐插件
+
+* ideaVim
+* ideaVimExtension
+
+根绝上面的种种 , 安装这两个插件 , 应该很容易了 . 
 
 隐藏掉边栏和上面的所有 , 我们该如何打开 , 查找 , 编辑文件呢 . 下面的一组快捷键 , 会让你彻底改变原有的习惯 .
 
