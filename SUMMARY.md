@@ -26,6 +26,7 @@
     * [使用技巧](应用说明/使用技巧.md)
     * [使用流程](使用流程.md)
   * [PHPStorm笔记](phpstormbi-ji.md)
+    * [精简你的PHPStrom](phpstormbi-ji/jing-jian-ni-de-phpstrom.md)
 * [开发者工具](开发者工具.md)
   * [Chrome开发者工具](开发者工具/chrome.md)
     * [Elements](开发者工具/chrome/elements.md)
