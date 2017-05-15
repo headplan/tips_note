@@ -92,11 +92,19 @@ cd ~/Library/Preferences/PhpStorm2017.*/colors
 wget https://raw.githubusercontent.com/dracula/jetbrains/7c411825e05161b3ff408db98b45d298730d4419/Dracula.icls
 ```
 
-下载完主题后 , 重启IDE . 快捷键进入配置 , 在Editor &gt; Colors & Fonts , 就能找到我们刚才下载的主题了 . 
+下载完主题后 , 重启IDE . 快捷键进入配置 , 在Editor &gt; Colors & Fonts , 就能找到我们刚才下载的主题了 .
 
 进入Fonts , 调整字体 , 大小 , 间距等 . 如图1-4
 
 ![](/assets/1-4.png)
+
+现在 , 我们Command + 1呼出边栏 , 不太完美的地方是 , 边栏的颜色和编辑器的背景色不太统一 . 我们首先想到的是 , 有没有调整颜色的配置 . 但是找了半天 , 只能修改IDE的主题了 . 
+
+这里有一个插件可以完美的解决以上的问题 , 我们打开配置 , 当然你可以使用Command + , 这里再引出一组快捷键 , Command + Shift + A 搜索你要的配置项 , 这里我们输入plugins回车 , 直接弹出插件安装列表 , 我们在搜索栏中输入Color ide , 我们没有安装这个插件 , 所以点击在仓库中搜索 . 如图1-5
+
+![](/assets/1-5.png)
+
+找到了Color Ide , install安装 , 重启IDE , 然后使用Command + 1 , 颜色一致了 . 
 
 隐藏掉边栏和上面的所有 , 我们该如何打开 , 查找 , 编辑文件呢 . 下面的一组快捷键 , 会让你彻底改变原有的习惯 .
 
