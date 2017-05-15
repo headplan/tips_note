@@ -24,7 +24,7 @@ pstorm index.php
 Command + 1
 ```
 
-隐藏/显示边栏 , 现在我们尝试一下 , 隐藏边栏 . 
+隐藏/显示边栏 , 现在我们尝试一下 , 隐藏边栏 .
 
 接下来继续精简 , 在菜单中选择
 
@@ -49,18 +49,47 @@ command + ,
 * Show vertical indent guides - 缩进提示的竖线
 * Show breadcrumbs - 编辑器顶部的面包削导航
 
-编辑器精简完毕 , 还差一步 , 就是隐藏编辑器顶部的Tabs , 可以在顶部右键 , 也可以像刚才一样 , 在配置中搜索Tabs Placement . 
+编辑器精简完毕 , 还差一步 , 就是隐藏编辑器顶部的Tabs , 可以在顶部右键 , 也可以像刚才一样 , 在配置中搜索Tabs Placement .
 
 还是不够完美 , 继续改造
 
-进入View -&gt; Active Editor , 我们看到了几个刚才在配置中隐藏掉的选项 , 继续把剩下的两个也都隐藏掉了 . 
+进入View -&gt; Active Editor , 我们看到了几个刚才在配置中隐藏掉的选项 , 继续把剩下的两个也都隐藏掉了 .
 
 * Show Gutter Icon
 * Show Import Popups
 
-以上列出这些的意义 , 是希望我们可以根据自己的喜好 , 自定义你想精简的部分 , 善用Command + , 和搜索相关的配置 . 
+以上列出这些的意义 , 是希望我们可以根据自己的喜好 , 自定义你想精简的部分 , 善用Command + , 和搜索相关的配置 .
 
 现在你想隐藏编辑器右侧的浏览器图标 , 应该怎么办 ? 大家可以尝试一下 . 
+
+现在 , 我们的PHPStorm已经清爽了许多 , 如图1-3
+
+![](/assets/1-3.png)
+
+我们还更换了编辑器的主题 , 这里用的是官方自带的Monokai , 你可以到
+
+```
+http://daylerees.github.io/
+或者
+http://www.phpstorm-themes.com/
+```
+
+去挑选自己喜欢的主题 . 去这里下载
+
+```
+https://github.com/daylerees/colour-schemes/tree/master/jetbrains
+```
+
+我选择了Darkside Contrast这一款 , 然后wget下载到
+
+```
+# 没有colors目录可以手动创建
+cd ~/Library/Preferences/PhpStorm2017.*/colors
+```
+
+```
+wget https://raw.githubusercontent.com/daylerees/colour-schemes/master/jetbrains/darkside.icls
+```
 
 隐藏掉边栏和上面的所有 , 我们该如何打开 , 查找 , 编辑文件呢 . 下面的一组快捷键 , 会让你彻底改变原有的习惯 .
 
