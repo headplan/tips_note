@@ -88,8 +88,15 @@ cd ~/Library/Preferences/PhpStorm2017.*/colors
 ```
 
 ```
-wget https://raw.githubusercontent.com/daylerees/colour-schemes/master/jetbrains/contrast/darkside-contrast.icls
+# 这里下载了https://github.com/dracula/jetbrains
+wget https://raw.githubusercontent.com/dracula/jetbrains/7c411825e05161b3ff408db98b45d298730d4419/Dracula.icls
 ```
+
+下载完主题后 , 重启IDE . 快捷键进入配置 , 在Editor &gt; Colors & Fonts , 就能找到我们刚才下载的主题了 . 
+
+进入Fonts , 调整字体 , 大小 , 间距等 . 如图1-4
+
+![](/assets/1-4.png)
 
 隐藏掉边栏和上面的所有 , 我们该如何打开 , 查找 , 编辑文件呢 . 下面的一组快捷键 , 会让你彻底改变原有的习惯 .
 
