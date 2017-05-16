@@ -72,3 +72,5 @@ Command + 1 - 打开关闭边栏
 
 ESC  - 取消操作 , 定位到编辑器的作用
 
+Double shift - 随便搜索
+
