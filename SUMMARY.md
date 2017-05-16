@@ -27,6 +27,7 @@
     * [使用流程](使用流程.md)
   * [PHPStorm笔记](phpstormbi-ji.md)
     * [精简你的PHPStrom](phpstormbi-ji/jing-jian-ni-de-phpstrom.md)
+    * [快捷键组合拳](phpstormbi-ji/kuai-jie-jian-zu-he-quan.md)
 * [开发者工具](开发者工具.md)
   * [Chrome开发者工具](开发者工具/chrome.md)
     * [Elements](开发者工具/chrome/elements.md)
