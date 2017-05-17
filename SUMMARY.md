@@ -33,6 +33,7 @@
     * [随手重构代码](phpstormbi-ji/sui-shou-zhong-gou-dai-ma.md)
     * [Sublime与Vim合体的感觉](phpstormbi-ji/sublimeyu-vim-he-ti-de-gan-jue.md)
     * [PS与XDebug](phpstormbi-ji/psyu-xdebug.md)
+    * [PS与Composer](phpstormbi-ji/psyu-composer.md)
 * [开发者工具](开发者工具.md)
   * [Chrome开发者工具](开发者工具/chrome.md)
     * [Elements](开发者工具/chrome/elements.md)
