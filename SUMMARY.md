@@ -28,6 +28,7 @@
   * [PHPStorm笔记](phpstormbi-ji.md)
     * [精简你的PHPStrom](phpstormbi-ji/jing-jian-ni-de-phpstrom.md)
     * [快捷键组合拳](phpstormbi-ji/kuai-jie-jian-zu-he-quan.md)
+    * [创建敏捷模板](phpstormbi-ji/chuang-jian-min-jie-mo-ban.md)
 * [开发者工具](开发者工具.md)
   * [Chrome开发者工具](开发者工具/chrome.md)
     * [Elements](开发者工具/chrome/elements.md)
