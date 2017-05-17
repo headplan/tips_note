@@ -35,6 +35,12 @@
     * [PS与XDebug](phpstormbi-ji/psyu-xdebug.md)
     * [PS与Composer](phpstormbi-ji/psyu-composer.md)
     * 测试与代码覆盖率
+    * PS与版本控制
+    * PS与数据库
+    * PS的工具窗口都有啥?
+    * PS与Vagrant
+    * PS与Docker
+    * PS画画UML图
 * [开发者工具](开发者工具.md)
   * [Chrome开发者工具](开发者工具/chrome.md)
     * [Elements](开发者工具/chrome/elements.md)
