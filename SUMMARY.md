@@ -34,6 +34,7 @@
     * [Sublime与Vim合体的感觉](phpstormbi-ji/sublimeyu-vim-he-ti-de-gan-jue.md)
     * [PS与XDebug](phpstormbi-ji/psyu-xdebug.md)
     * [PS与Composer](phpstormbi-ji/psyu-composer.md)
+    * 测试与代码覆盖率
 * [开发者工具](开发者工具.md)
   * [Chrome开发者工具](开发者工具/chrome.md)
     * [Elements](开发者工具/chrome/elements.md)
