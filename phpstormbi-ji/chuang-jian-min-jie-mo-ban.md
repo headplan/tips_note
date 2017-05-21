@@ -47,5 +47,11 @@ class ${NAME} extends ${Model}{
 }
 ```
 
+这里的`#[[$var$]]#`就是新建了文件之后光标的输入位置 , 多个位置可以使用tab键切换 . 既然说到了Live Templates , 我们就详细的说说吧 . 
+
+#### Live Templates
+
+
+
 
 
