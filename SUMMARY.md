@@ -9,7 +9,6 @@
     * [Tmux配置](tmux配置.md)
   * [iTerm2](it.md)
   * zsh
-  * Git
   * [PsySH](psysh.md)
   * Screen
 * [IDE](ide.md)
