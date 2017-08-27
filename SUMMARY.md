@@ -5,13 +5,13 @@
   * [Vim](vim.md)
     * [像IDE一样使用vim](像ide一样使用vim.md)
     * [vimrc配置](vimrc配置.md)
+  * [Sublime](sublime.md)
   * [Tmux](tmux.md)
     * [Tmux配置](tmux配置.md)
-  * [iTerm2](it.md)
-  * zsh
+  * [Screen](screen.md)
+  * [iterm2](it.md)
+  * [zsh](zsh.md)
   * [PsySH](psysh.md)
-  * Screen
-  * [Sublime](sublime.md)
 * [IDE](ide.md)
   * [PHPStorm](phpstorm.md)
     * [快速入门](快速入门.md)
