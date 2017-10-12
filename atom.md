@@ -36,3 +36,13 @@ Atom 是由 GitHub 官方在 2014 年 2 月推出的一款开源的跨平台代�
 
 就跟选择 Laravel 一样，跟着趋势走，肯定错不了。
 
+### 开放的生态圈
+
+**Webkit** 是 Chrome 底层的渲染引擎，目前 WebKit 基本上是一统天下了，后台有两家大公司在支持，一个是 Google 一个是 Apple，Chrome、Safari、Opera，国内的遨游浏览器、猎豹浏览器、百度浏览器、搜狗浏览器、360极速浏览器等（百度百科）。
+
+**Chromium** 是 Google Chrome 的开源版本，国内很多浏览器产商都是基于它来定制开发，然后推出自己品牌的浏览器。
+
+**Atom** 基于 Electron 开发的，而 Electron 是基于 Webkit 项目开发的，你在使用 Atom 时，也可以很轻松的召唤出 Chrome 开发者工具。
+
+现代浏览器一般有两个渲染引擎，一个 Dom 页面渲染引擎，一个是 JavaScript 引擎。Webkit 是 Chrome 的 Dom 页面渲染引擎。Chrome 的 JavaScript 引擎叫 **V8**，很酷的名字，不过听说过这个的人应该不多。V8 比较知名的应用是 **node.js**， 2009 年 5 月份，Ryan Dahl 将 V8 放到服务器端，为 JavaScript 提供了一个服务器端的运行环境，就变成了 node.js。
+
