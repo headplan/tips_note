@@ -12,6 +12,7 @@
   * [iterm2](it.md)
   * [zsh](zsh.md)
   * [PsySH](psysh.md)
+  * [Atom](atom.md)
 * [IDE](ide.md)
   * [PHPStorm](phpstorm.md)
     * [快速入门](快速入门.md)
