@@ -44,7 +44,8 @@
     * PS画画UML图
 * [开发者工具](开发者工具.md)
   * [Chrome开发者工具](开发者工具/chrome.md)
-    * [Elements](开发者工具/chrome/elements.md)
+    * [Device Mode\(设备模式\)](开发者工具/chrome/device-modeshe-bei-mo-5f0f29.md)
+    * [Elements\(元素面板\)](开发者工具/chrome/elements.md)
 * [Kali常用工具](chang-yong-gong-ju.md)
   * [iTerm和Oh My Zsh](chang-yong-gong-ju/itermhe-oh-my-zsh.md)
 

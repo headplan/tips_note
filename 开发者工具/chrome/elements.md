@@ -1,4 +1,4 @@
-# Elements
+# Elements\(元素面板\)
 
 **Elements**允许我们从浏览器的角度看页面,也就是说我们可以看到chrome渲染页面所需要的的HTML、CSS和DOM\(Document Object Model\)对象.此外,还可以编辑这些内容更改页面显示效果 .
 
