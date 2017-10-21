@@ -1,5 +1,9 @@
 # Chrome开发者工具
 
+**官方文档**
+
+https://developers.google.com/web/tools/chrome-devtools/
+
 开发者工具的正确打开方式
 
 * 右键点击审查元素\(检查\)
@@ -22,9 +26,7 @@
 
 * Profiles : 分析web应用或者页面的执行时间以及内存使用情况;
 
-* Application :
-
-* Security : 安全认证
+* 等等...
 
 
 
