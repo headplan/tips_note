@@ -22,7 +22,7 @@
 
 * Profiles : 分析web应用或者页面的执行时间以及内存使用情况;
 
-* Application : 
+* Application :
 
 * Security : 安全认证
 
