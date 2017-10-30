@@ -38,3 +38,25 @@ use function defined;
 
 这里我们以php-cs-fixer为例子展开 . 
 
+首先全局安装phar档 . 这里可以使用composer全局安装 , 如果是mac的话 , 也可以直接brew安装 ,当然下载安装也可以 . 
+
+```
+composer global require friendsofphp/php-cs-fixer
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+```
+
+```
+brew install homebrew/php/php-cs-fixer
+```
+
+这里直接使用composer安装 . 安装完成之后 , 在PHPStrom中的审查功能Inspections启用CodeSniffer功能 . 然后进入
+
+Languages & Frameworks选择PHP选项中的Code Sniffer . 配置本地路径 . 
+
+```
+which php-cs-fixer
+# 将地址写配置到phpstorm
+```
+
+
+
