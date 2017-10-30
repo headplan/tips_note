@@ -20,7 +20,7 @@ OK , 当然这些代码风格都是可配置的 , 进入配置 , 查看Code Styl
 
 > [https://github.com/michaeldyrynda/phpstorm-laravel-code-style](https://github.com/michaeldyrynda/phpstorm-laravel-code-style)
 
-这是一个github上分享的laravel风格的xml配置 . 点击Scheme右侧的设置按钮 , 导入导出配置 . 
+这是一个github上分享的laravel风格的xml配置 . 点击Scheme右侧的设置按钮 , 导入导出配置 .
 
 更进一步的规范代码风格之前 , 我们先修改一下最新版本的PHPStorm中Auto Import的选项 , 这里的PHP部分 , 新增了自动添加
 
@@ -28,7 +28,13 @@ OK , 当然这些代码风格都是可配置的 , 进入配置 , 查看Code Styl
 use function defined;
 ```
 
-的类似功能 , 这里去掉选项 . 
+的类似功能 , 这里去掉选项 . OK , 下面要介绍的 , 就是PHPStrom的审查功能 . 
+
+先介绍几个类包 : 
+
+> 经典的 - https://github.com/squizlabs/PHP\_CodeSniffer
+>
+> https://styleci.io/使用的 , https://github.com/friendsofphp/php-cs-fixer
 
 
 
