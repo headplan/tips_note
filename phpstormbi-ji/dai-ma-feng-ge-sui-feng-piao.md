@@ -103,15 +103,13 @@ php-cs-fixer fix --rules=no_unused_imports $FileDir$/$FileName$
 
 ---
 
-前面已经配置好了代码风格的自动规范 , 为了更好的检查代码质量 , 我们继续看一下PHP Mess Detector . 
+前面已经配置好了代码风格的自动规范 , 为了更好的检查代码质量 , 我们继续看一下PHP Mess Detector .
 
-> https://phpmd.org/
+> [https://phpmd.org/](https://phpmd.org/)
 >
 > [https://github.com/phpmd/phpmd](https://github.com/phpmd/phpmd)
 
-```
 
-```
 
 
 
