@@ -119,6 +119,20 @@ composer global require phpmd/phpmd
 
 ![](/assets/phpmd.png)
 
+这里我们可以配置几个附加参数 : 
+
+Serverity : 将在 PhpStorm 中显示的检查的严重性 , 这里默认为微弱的警告 . 
+
+Option : 就是可以启用的各种规则
+
+* 代码大小规则: 包含查找与代码大小相关的问题的规则集合。
+* 有争议的规则: 包含有争议的规则的集合。
+* 设计规则: 包含查找软件设计相关问题的规则集合。
+* 命名规则: 包含有关名称的规则集合-太长、太短等等。
+* 未使用的代码规则: 包含查找未使用代码的规则集合。
+
+Custom rulesets : 也可以启用自定义规则 . 
+
 参考资料
 
 [http://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm](http://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm)
