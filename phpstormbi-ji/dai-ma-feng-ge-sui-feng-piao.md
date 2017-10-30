@@ -119,9 +119,9 @@ composer global require phpmd/phpmd
 
 ![](/assets/phpmd.png)
 
-这里我们可以配置几个附加参数 : 
+这里我们可以配置几个附加参数 :
 
-Serverity : 将在 PhpStorm 中显示的检查的严重性 , 这里默认为微弱的警告 . 
+Serverity : 将在 PhpStorm 中显示的检查的严重性 , 这里默认为微弱的警告 .
 
 Option : 就是可以启用的各种规则
 
@@ -131,7 +131,9 @@ Option : 就是可以启用的各种规则
 * 命名规则: 包含有关名称的规则集合-太长、太短等等。
 * 未使用的代码规则: 包含查找未使用代码的规则集合。
 
-Custom rulesets : 也可以启用自定义规则 . 
+Custom rulesets : 也可以启用自定义规则 .
+
+配置完之后 , 和前面的php-cs-fixer一样 , 会在代码中显示警告线和提示 . 
 
 参考资料
 
