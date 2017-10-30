@@ -101,3 +101,17 @@ php-cs-fixer fix --rules=no_unused_imports $FileDir$/$FileName$
 
 以上添加完成后 , 可以给刚刚添加的扩展工具设置一个快捷键 . 在配置中的Keymap中搜索PHP-CS-FIX , 刚刚自定义的name , 然后设置 , 我这里设置了`Command+Shift+L`
 
+---
+
+前面已经配置好了代码风格的自动规范 , 为了更好的检查代码质量 , 我们继续看一下PHP Mess Detector . 
+
+> https://phpmd.org/
+>
+> [https://github.com/phpmd/phpmd](https://github.com/phpmd/phpmd)
+
+```
+
+```
+
+
+
