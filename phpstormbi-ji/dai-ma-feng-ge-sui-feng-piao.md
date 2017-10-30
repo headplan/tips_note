@@ -32,9 +32,9 @@ use function defined;
 
 先介绍几个类包 :
 
-> 经典的 - [https://github.com/squizlabs/PHP\_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+> [https://github.com/squizlabs/PHP\_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - 经典包
 >
-> [https://styleci.io/ ](https://styleci.io/使用的)使用的, [https://github.com/friendsofphp/php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer)
+> [https://github.com/friendsofphp/php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer) - [https://styleci.io/ ](https://styleci.io/使用的)使用的
 
 
 
