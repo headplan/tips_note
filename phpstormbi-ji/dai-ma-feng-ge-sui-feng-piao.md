@@ -28,17 +28,23 @@ OK , 当然这些代码风格都是可配置的 , 进入配置 , 查看Code Styl
 use function defined;
 ```
 
-的类似功能 , 这里去掉选项 . OK , 下面要介绍的 , 就是PHPStrom的审查功能 .
+的类似功能 , 这里去掉选项 . 
 
-先介绍几个类包 :
+OK , 下面要介绍的 , 就是PHPStrom的审查功能 .
 
-> [https://github.com/squizlabs/PHP\_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - 经典包
+先安装两个类包 :
+
+> [https://github.com/squizlabs/PHP\_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 >
-> [https://github.com/friendsofphp/php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer) - [https://styleci.io/ ](https://styleci.io/使用的)使用的
+> [https://github.com/friendsofphp/php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer)
 
-这里我们以php-cs-fixer为例子展开 . 
+首先打开代码审查功能Inspections , 启用PHP中的CodeSniffer功能 , 这里需要依赖[PHP\_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)这个类包 . composer全局安装 . 
 
-首先全局安装phar档 . 这里可以使用composer全局安装 , 如果是mac的话 , 也可以直接brew安装 ,当然下载安装也可以 . 
+```
+composer global require "squizlabs/php_codesniffer=*"
+```
+
+首先全局安装phar档 . 这里可以使用composer全局安装 , 如果是mac的话 , 也可以直接brew安装 ,当然下载安装也可以 .
 
 ```
 composer global require friendsofphp/php-cs-fixer
@@ -51,7 +57,7 @@ brew install homebrew/php/php-cs-fixer
 
 这里直接使用composer安装 . 安装完成之后 , 在PHPStrom中的审查功能Inspections启用CodeSniffer功能 . 然后进入
 
-Languages & Frameworks选择PHP选项中的Code Sniffer . 配置本地路径 . 
+Languages & Frameworks选择PHP选项中的Code Sniffer . 配置本地路径 .
 
 ```
 which php-cs-fixer
