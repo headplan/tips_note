@@ -28,13 +28,13 @@ OK , 当然这些代码风格都是可配置的 , 进入配置 , 查看Code Styl
 use function defined;
 ```
 
-的类似功能 , 这里去掉选项 . OK , 下面要介绍的 , 就是PHPStrom的审查功能 . 
+的类似功能 , 这里去掉选项 . OK , 下面要介绍的 , 就是PHPStrom的审查功能 .
 
-先介绍几个类包 : 
+先介绍几个类包 :
 
-> 经典的 - https://github.com/squizlabs/PHP\_CodeSniffer
+> 经典的 - [https://github.com/squizlabs/PHP\_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 >
-> https://styleci.io/使用的 , https://github.com/friendsofphp/php-cs-fixer
+> [https://styleci.io/ ](https://styleci.io/使用的)使用的, [https://github.com/friendsofphp/php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer)
 
 
 
