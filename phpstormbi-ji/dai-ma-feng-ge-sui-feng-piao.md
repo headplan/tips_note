@@ -36,5 +36,5 @@ use function defined;
 >
 > [https://github.com/friendsofphp/php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer) - [https://styleci.io/ ](https://styleci.io/使用的)使用的
 
-
+这里我们以php-cs-fixer为例子展开 . 
 
