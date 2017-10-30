@@ -109,15 +109,17 @@ php-cs-fixer fix --rules=no_unused_imports $FileDir$/$FileName$
 >
 > [https://github.com/phpmd/phpmd](https://github.com/phpmd/phpmd)
 
-PHP Mess Detector , 或者简称为 PHPMD . 是一个可以检查 php 源代码是否存在潜在问题的工具 . 就像 PhpStorm 的检查一样 , PHPMD 可以检测可能的 bug、次优代码、未使用的参数等等 . 除此之外 , PHPMD 还包含一些检查代码复杂性的规则 , 并告诉我们是否应该将代码重写为更易维护的内容 . 所有这些检查都很好地融入了PhpStorm . 
+PHP Mess Detector , 或者简称为 PHPMD . 是一个可以检查 php 源代码是否存在潜在问题的工具 . 就像 PhpStorm 的检查一样 , PHPMD 可以检测可能的 bug、次优代码、未使用的参数等等 . 除此之外 , PHPMD 还包含一些检查代码复杂性的规则 , 并告诉我们是否应该将代码重写为更易维护的内容 . 所有这些检查都很好地融入了PhpStorm .
 
-要使用PHPMD , 先要安装配置 , 配置方式和前面配置php-cs-fixer的方法是一样的 . 
+要使用PHPMD , 先要安装配置 , 配置方式和前面配置php-cs-fixer的方法是一样的 .
 
 ```
 composer global require phpmd/phpmd
 ```
 
+![](/assets/phpmd.png)
+
 参考资料
 
-http://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm
+[http://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm](http://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm)
 
