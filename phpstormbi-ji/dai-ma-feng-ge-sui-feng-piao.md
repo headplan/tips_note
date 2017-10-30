@@ -14,9 +14,13 @@ class TestController extends Controller
 }
 ```
 
-尝试一下 . 成功与否 ? 
+尝试一下 . 成功与否 ?
 
-OK , 当然这些代码风格都是可配置的 , 进入配置 , 查看Code Style中的PHP配置 . 这里的Scheme依然是默认和针对项目的选项 . 右侧的Set from...是一些预定义的代码风格配置 . 不过 , 既然到了这一步 , 我想你一定和我一样 , 都想自己配置一下想要的风格 . 继续看看 , 
+OK , 当然这些代码风格都是可配置的 , 进入配置 , 查看Code Style中的PHP配置 . 这里的Scheme依然是默认和针对项目的选项 . 右侧的Set from...是一些预定义的代码风格配置 . 不过 , 既然到了这一步 , 我想你一定和我一样 , 想自己配置一下想要的风格 . 
+
+> https://github.com/michaeldyrynda/phpstorm-laravel-code-style
+
+这是一个github上分享的laravel风格的xml配置 . 点击Scheme右侧的设置按钮 , 导入导出配置 . 
 
 
 
