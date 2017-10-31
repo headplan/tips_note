@@ -34,5 +34,5 @@ with Xdebug v2.5.4, Copyright (c) 2002-2017, by Derick Rethans
 
 ![](/assets/webserverdebugvalidation.png)
 
-如果使用的是本地 web 服务器进行开发, 或者是共享文件夹\(例如,vagrant\) . 直接配置第一个参数为web路径 , 就是创建脚本的路径 , 第二个参数写验证的URL , 一般是配置的本地的host地址 . 之后就可以直接点击Validate查看了 . 还可以配置远程服务器 , 选择Remote Web Server然后配置即可 , 这里和主题关联不多 , 暂不具体了解其配置了 . 
+如果使用的是本地 web 服务器进行开发, 或者是共享文件夹\(例如,vagrant\) . 直接配置第一个参数为web路径 , 就是创建脚本的路径 , 第二个参数写验证的URL\(也就是访问脚本的URL\) , 一般是配置的本地的host地址 . 之后就可以直接点击Validate查看了 . 还可以配置远程服务器 , 选择Remote Web Server然后配置即可 , 这里和主题关联不多 , 暂不具体了解其配置了 .
 
