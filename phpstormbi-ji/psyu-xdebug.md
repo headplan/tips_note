@@ -34,5 +34,25 @@ with Xdebug v2.5.4, Copyright (c) 2002-2017, by Derick Rethans
 
 ![](/assets/webserverdebugvalidation.png)
 
-如果使用的是本地 web 服务器进行开发, 或者是共享文件夹\(例如,vagrant\) . 直接配置第一个参数为web路径 , 就是创建脚本的路径 , 第二个参数写验证的URL\(也就是访问脚本的URL\) , 一般是配置的本地的host地址 . 之后就可以直接点击Validate查看了 . 还可以配置远程服务器 , 选择Remote Web Server然后配置即可 , 这里和主题关联不多 , 暂不具体了解其配置了 .
+如果使用的是本地 web 服务器进行开发, 或者是共享文件夹\(例如,vagrant\) . 直接配置第一个参数为web路径 , 就是创建脚本的路径 , 第二个参数写验证的URL\(也就是访问脚本的URL\) , 一般是配置的本地的host地址 . 之后就可以直接点击Validate查看了 . 还可以配置远程服务器 , 选择Remote Web Server然后配置即可 , 这里和主题关联不多 , 暂不具体了解其配置了 . 
+
+这里报错或者失败的解决方案就不多说了 , 可以支取去PHPStorm的官方文档查看 , 直接点击Validate验证 , 成功的话 , 就会在Information中提示消息 , 这里主要会提示XDebug扩展你的配置和PHPStorm的配置是不一样的等信息 . 
+
+先来看看我们的XDebug的配置
+
+```
+php --ini | grep xdebug
+```
+
+查看一下xdebug的配置 , 修改配置等 . 
+
+> 参考资料
+>
+> Web 服务器调试验证工具
+>
+> https://confluence.jetbrains.com/display/PhpStorm/Validating+Your+Debugging+Configuration\#ValidatingYourDebuggingConfiguration-ConnectionRefused
+
+#### 浏览器调试扩展
+
+第二步是安装这个扩展了 , 
 
