@@ -26,9 +26,9 @@ php -v
 with Xdebug v2.5.4, Copyright (c) 2002-2017, by Derick Rethans
 ```
 
-这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 . 
+这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 .
 
-安装了XDebug之后 , 进入`Languages & Frameworks`的PHP选项 , 配置正确的CLI Interpreter . 就可以运行菜单中的Run-&gt;Debug了 . 
+安装了XDebug之后 , 进入`Languages & Frameworks`的PHP选项 , 配置正确的CLI Interpreter . 就可以运行菜单中的Run-&gt;Debug了 . 先不看Debug窗口的内容 , 之后再详细介绍 . 
 
 #### 使用 Web 服务器调试验证工具
 
