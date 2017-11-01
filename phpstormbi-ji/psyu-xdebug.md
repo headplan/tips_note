@@ -88,7 +88,11 @@ xdebug.idekey=PHPSTORM
 
 **PhpStorm Xdebug端口及Server配置**
 
-安装了浏览器扩展 , 现在来配置一下Server服务 . Preferences\(command+,\)→ PHP → Debug → Xdebug → Debug port修改为9000\(一般默认就是9000 , 这配置项与php.ini中的xdebug.remote\_port=9000保持一致\) . 然后点击配置Run→Edit Configurations :
+端口
 
-配置Default
+安装了浏览器扩展 , 现在来配置一下Server服务 . Preferences\(command+,\)→ PHP → Debug → Xdebug → Debug port修改为9000\(一般默认就是9000 , 这配置项与php.ini中的xdebug.remote\_port=9000保持一致\) . 
+
+Server
+
+![](/assets/debugserver.png)
 
