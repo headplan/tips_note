@@ -38,7 +38,9 @@ php -dxdebug.remote_enable=1 -dxdebug.remote_mode=req -dxdebug.remote_port=9000 
 
 其中的Run , Debug等 , 都是为了快速创建配置好的运行路径脚本或者Debug路径脚本的 , 直接Edit Configurations , 就可以创建预设的Run或者Debug脚本配置了 , 其中有很多默认的配置可以添加 . ![](/assets/editdefaultrun.png)
 
-配置之后 , 在Run和Debug选项中就能找到我们刚刚配置的名称了 . 这里就需要后面配置服务的内容了, 暂时跳过 .
+配置之后 , 在Run和Debug选项中就能找到我们刚刚配置的名称了 . 
+
+> 其实不必在这里配置PHP的Debug设置 , 后面我们直接监听服务器即可 , 所有断点都能监听到 .
 
 这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 .
 
@@ -117,4 +119,6 @@ test.io/?XDEBUG_SESSION_START=11886
 当然使用浏览器扩展会更方便一些 .
 
 ---
+
+
 
