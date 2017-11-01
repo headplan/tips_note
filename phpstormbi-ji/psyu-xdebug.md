@@ -32,7 +32,11 @@ with Xdebug v2.5.4, Copyright (c) 2002-2017, by Derick Rethans
 php -dxdebug.remote_enable=1 -dxdebug.remote_mode=req -dxdebug.remote_port=9000 -dxdebug.remote_host=127.0.0.1 ./test.php
 ```
 
-同时会在Edit Configurations中新建一个PHP Script的配置 .
+同时会在Edit Configurations中新建一个PHP Script的配置 . 这里的Edit Configurations , 也就是Run中的前几个选项 : 
+
+![](/assets/rundit2.png)
+
+
 
 这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 .
 
@@ -78,7 +82,9 @@ xdebug.idekey=PHPSTORM
 
 第二步是安装这个扩展了 , 那为什么要使用浏览器扩展呢 ?
 
-为了启动调试 , 首先需要在服务器上激活调试器 . 为此 , 需要设置一个特殊的 "GET/POST" 或 "COOKIE" 参数 . 可以手动执行此操作 , 但使用浏览器扩展更方便 . 它允许通过单击按钮来启用调试器 . 当扩展处于活动状态时 , 它会直接发送 XDEBUG\_SESSION cookie , 而不是通过 XDEBUG\_SESSION\_START开始 . 这里安装Chrome的扩展 , 其他扩展可以去官方文档给的列表去下载安装 .
+为了启动调试 , 首先需要在服务器上激活调试器 . 为此 , 需要设置一个特殊的 "GET/POST" 或 "COOKIE" 参数 . 可以手动执行此操作 , 但使用浏览器扩展更方便 . 它允许通过单击按钮来启用调试器 . 当扩展处于活动状态时 , 它会直接发送 XDEBUG\_SESSION cookie , 而不是通过 XDEBUG\_SESSION\_START开始 . 这里安装Chrome的扩展 , 其他扩展可以去官方文档给的列表去下载安装 . 
+
+可以用浏览器监控一下Cookie , 当使用扩展的时候 , 会添加一个键为XDEBUG\_SESSION , 值是PHPSTORM的Cookie . 
 
 > [https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc)
 
@@ -93,4 +99,8 @@ xdebug.idekey=PHPSTORM
 安装了浏览器扩展 , 现在来配置一下Server服务 . Preferences\(command+,\)→ PHP → Debug → Xdebug → Debug port修改为9000\(一般默认就是9000 , 这配置项与php.ini中的xdebug.remote\_port=9000保持一致\) .
 
 **Server**![](/assets/debugserver.png)
+
+一切配置完毕 , 现在可以开始监听 , 使用PHP的Debug的了 . 打开PHPStorm的监听 , 也就是最开始配置时的第三步 , 在Run中也可以找到 . 
+
+
 
