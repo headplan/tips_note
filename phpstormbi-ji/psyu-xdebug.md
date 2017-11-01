@@ -26,9 +26,15 @@ php -v
 with Xdebug v2.5.4, Copyright (c) 2002-2017, by Derick Rethans
 ```
 
-这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 .
+安装了XDebug之后不用配置其他服务 , 进入`Languages & Frameworks`的PHP选项 , 配置正确的CLI Interpreter . 就可以运行菜单中的Run-&gt;Debug了 . 配置简单的脚本Debug , 其实是执行一行命令运行脚本 . 
 
-安装了XDebug之后 , 进入`Languages & Frameworks`的PHP选项 , 配置正确的CLI Interpreter . 就可以运行菜单中的Run-&gt;Debug了 . 先不看Debug窗口的内容 , 之后再详细介绍 . 
+```
+php -dxdebug.remote_enable=1 -dxdebug.remote_mode=req -dxdebug.remote_port=9000 -dxdebug.remote_host=127.0.0.1 ./test.php
+```
+
+同时会在Edit Configurations中新建一个PHP Script的配置 . 
+
+这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 .
 
 #### 使用 Web 服务器调试验证工具
 
@@ -48,6 +54,20 @@ php --ini | grep xdebug
 
 查看一下xdebug的配置 , 修改配置等 .
 
+```
+[xdebug]
+zend_extension="xdebug.so"
+xdebug.remote_autostart=1
+xdebug.remote_enable=1
+xdebug.remote_host=php.local
+xdebug.remote_port=9009
+xdebug.profiler_enable = 1
+xdebug.profiler_output_dir = "xdebug_log"
+xdebug.idekey=PHPSTORM
+```
+
+增加一项xdebug.idekey="PHPSTORM" , 该配置跟之后PhpStorm中的配置有关系 . 
+
 > 参考资料
 >
 > Web 服务器调试验证工具
@@ -59,4 +79,14 @@ php --ini | grep xdebug
 第二步是安装这个扩展了 , 那为什么要使用浏览器扩展呢 ?
 
 为了启动调试 , 首先需要在服务器上激活调试器 . 为此 , 需要设置一个特殊的 "GET/POST" 或 "COOKIE" 参数 . 可以手动执行此操作 , 但使用浏览器扩展更方便 . 它允许通过单击按钮来启用调试器 . 当扩展处于活动状态时 , 它会直接发送 XDEBUG\_SESSION cookie , 而不是通过 XDEBUG\_SESSION\_START开始 . 这里安装Chrome的扩展 , 其他扩展可以去官方文档给的列表去下载安装 .
+
+> https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
+
+**PhpStorm Xdebug端口及Server配置**
+
+Preferences\(command+,\)→ PHP → Debug → Xdebug → Debug port修改为9000\(一般默认就是9000 , 这配置项与php.ini中的xdebug.remote\_port=9000保持一致\) . 然后点击配置Run→Edit Configurations : 
+
+配置Defau
+
+
 
