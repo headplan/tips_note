@@ -136,12 +136,30 @@ test.io/?XDEBUG_SESSION_START=11886
 | ![](https://www.jetbrains.com/help/img/idea/2017.2/debug_view_breakpoints.gif "/help/img/idea/2017.2/debug\_view\_breakpoints.gif") | View Breakpoints ⇧⌘F8 | 单击此按钮打开可以配置断点行为的断点对话框 . |
 | ![](https://www.jetbrains.com/help/img/idea/2017.2/debug_mute_breakpoints.png "/help/img/idea/2017.2/debug\_mute\_breakpoints.png") | Mute Breakpoints | 使用此按钮切换断点状态 . 当按钮被按下的状态时 , 项目中的所有断点都会被静音 , 并且它们的图标变为灰色 . |
 | ![](https://www.jetbrains.com/help/img/idea/2017.2/debug_layout.png "/help/img/idea/2017.2/debug\_layout.png") | Restore Layout | 单击此按钮 , 放弃对当前布局的更改并返回默认状态 . 就是把Debug窗口拖拽的或者隐藏的复原 . |
-| ![](https://www.jetbrains.com/help/img/idea/2017.2/projectToolWindowSettingsIcon.png "/help/img/idea/2017.2/projectToolWindowSettingsIcon.png") | Settings | 设置一些排序等 .  |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/projectToolWindowSettingsIcon.png "/help/img/idea/2017.2/projectToolWindowSettingsIcon.png") | Settings | 设置一些排序等 . |
 | ![](https://www.jetbrains.com/help/img/idea/2017.2/pin.png "/help/img/idea/2017.2/pin.png") | Pin | 选项卡图钉 |
 | ![](https://www.jetbrains.com/help/img/idea/2017.2/close.png "/help/img/idea/2017.2/close.png") | Close ⌃⇧F4 | 关闭选项卡 |
 | ![](https://www.jetbrains.com/help/img/idea/2017.2/icon_help.png "/help/img/idea/2017.2/icon\_help.png") | Help N/A | 帮助 |
 
+| Item |
+| :--- |
+
+
+|  | Tooltip and Shortcut | Description |
+| :--- | :--- | :--- |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_show_execution_point.png "/help/img/idea/2017.2/frames\_show\_execution\_point.png") | Show Execution Point ⌥F10 | Click this button to highlight the current execution point in the editor and show the corresponding stack frame in theFramespane. |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_step_over.png "/help/img/idea/2017.2/frames\_step\_over.png") | Step Over F8 | Click this button to execute the program until the next line in the current method or file, skipping the methods referenced at the current execution point \(if any\). If the current line is the last one in the method, execution steps to the line executed right after this method. |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_step_into.png "/help/img/idea/2017.2/frames\_step\_into.png") | Step Into F7 | Click this button to have the debugger step into the method called at the current execution point. |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_force_step_into.png "/help/img/idea/2017.2/frames\_force\_step\_into.png") | Force Step Into ⌥⇧F7 | Click this button to have the debugger step into the method called in the current execution point even if this method is to be skipped. |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_step_out.png "/help/img/idea/2017.2/frames\_step\_out.png") | Step Out ⇧F8 | Click this button to have the debugger step out of the current method, to the line executed right after it. |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_run_to_cursor.png "/help/img/idea/2017.2/frames\_run\_to\_cursor.png") | Run to Cursor ⌥F9 | Click this button to resume program execution and pause until the execution point reaches the line at the current cursor location in the editor. No breakpoint is required. Actually, there is a temporary breakpoint set for the current line at the caret, which is removed once program execution is paused. Thus, if the caret is positioned at the line which has already been executed, the program will be just resumed for further execution, because there is no way to roll back to previous breakpoints. This action is especially useful when you have stepped deep into the methods sequence and need to step out of several methods at once.If there are breakpoints set for the lines that should be executed before bringing you to the specified line, the debugger will pause at the first encountered breakpoint.Use this action when you need a kind of a temporary breakpoint at a specific line, where program execution should not be interrupted. |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/variables_evaluate_expr.png "/help/img/idea/2017.2/variables\_evaluate\_expr.png") | Evaluate Expression ⌥F8 | Click this button to open the[Evaluate Expression](https://www.jetbrains.com/help/phpstorm/2017.2/evaluate-expression.html)dialog. |
+
+---
+
 参考内容
 
 [https://confluence.jetbrains.com/display/PhpStorm/Debugging+with+PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/Debugging+with+PhpStorm)
+
+https://www.jetbrains.com/help/phpstorm/2017.2/debug-tool-window-debugger.html?utm\_campaign=PS&utm\_content=2017.2&utm\_medium=help\_link&utm\_source=from\_product
 
