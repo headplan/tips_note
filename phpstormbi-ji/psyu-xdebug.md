@@ -26,7 +26,9 @@ php -v
 with Xdebug v2.5.4, Copyright (c) 2002-2017, by Derick Rethans
 ```
 
-这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 .
+这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 . 
+
+安装了XDebug之后 , 进入`Languages & Frameworks`的PHP选项 , 配置正确的CLI Interpreter . 就可以运行菜单中的Run-&gt;Debug了 . 
 
 #### 使用 Web 服务器调试验证工具
 
@@ -54,7 +56,7 @@ php --ini | grep xdebug
 
 #### 浏览器调试扩展
 
-第二步是安装这个扩展了 , 那为什么要使用浏览器扩展呢 ? 
+第二步是安装这个扩展了 , 那为什么要使用浏览器扩展呢 ?
 
-为了启动调试 , 首先需要在服务器上激活调试器 . 为此 , 需要设置一个特殊的 "GET/POST" 或 "COOKIE" 参数 . 可以手动执行此操作 , 但使用浏览器扩展更方便 . 它允许通过单击按钮来启用调试器 . 当扩展处于活动状态时 , 它会直接发送 XDEBUG\_SESSION cookie , 而不是通过 XDEBUG\_SESSION\_START开始 . 这里安装Chrome的扩展 , 其他扩展可以去官方文档给的列表去下载安装 . 
+为了启动调试 , 首先需要在服务器上激活调试器 . 为此 , 需要设置一个特殊的 "GET/POST" 或 "COOKIE" 参数 . 可以手动执行此操作 , 但使用浏览器扩展更方便 . 它允许通过单击按钮来启用调试器 . 当扩展处于活动状态时 , 它会直接发送 XDEBUG\_SESSION cookie , 而不是通过 XDEBUG\_SESSION\_START开始 . 这里安装Chrome的扩展 , 其他扩展可以去官方文档给的列表去下载安装 .
 
