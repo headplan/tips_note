@@ -34,7 +34,7 @@ php -dxdebug.remote_enable=1 -dxdebug.remote_mode=req -dxdebug.remote_port=9000 
 
 同时会在Edit Configurations中新建一个PHP Script的配置 .
 
-这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 . 
+这里下载安装配置就不再过多说明了 . 安装并配置 Xdebug 后 , 可以使用 "验证调试配置" 工具来确认 Xdebug 和 PhpStorm 的配置是否兼容 . 点击Validate打开配置窗口 .
 
 #### 使用 Web 服务器调试验证工具
 
@@ -82,7 +82,9 @@ xdebug.idekey=PHPSTORM
 
 > [https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc)
 
-当然浏览器扩展也是需要配置的 , 首先是前面添加的配置IDE key , 我们选择PHPSTROM . 
+当然浏览器扩展也是需要配置的 , 首先是前面添加的配置IDE key , 我们选择PHPSTROM .
+
+![](/assets/idekey.png)
 
 **PhpStorm Xdebug端口及Server配置**
 
