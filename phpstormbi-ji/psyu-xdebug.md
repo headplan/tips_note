@@ -74,7 +74,7 @@ xdebug.profiler_output_dir="xdebug_log"
 xdebug.idekey=PHPSTORM
 ```
 
-增加一项xdebug.idekey="PHPSTORM" , 该配置跟之后PhpStorm中的配置有关系 . 当然如果监听了也就不用设置了 . 
+增加一项xdebug.idekey="PHPSTORM" , 该配置跟之后PhpStorm中的配置有关系 . 
 
 > 参考资料
 >
@@ -116,7 +116,9 @@ xdebug.idekey=PHPSTORM
 test.io/?XDEBUG_SESSION_START=11886
 ```
 
-当然使用浏览器扩展会更方便一些 .
+当然使用浏览器扩展会更方便一些 . 
+
+> 这里测试了很久 , 在只配置了正确的Xdebug端口 , 和Server服务器之后 , 打上断点 , 开启监听 , 不管有没有idekey , 或者XDEBUG\_SESSION都可以监听得到 , 在postman中也可用 , 这里暂时记录 , 如果遇到问题 , 再使用XDEBUG\_SESSION解决 .
 
 ---
 
