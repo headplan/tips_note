@@ -122,7 +122,26 @@ test.io/?XDEBUG_SESSION_START=11886
 
 ---
 
+#### 功能使用
+
+前面已经配置好了XDebug , 接下来就是一些常用按钮的使用了 . 
+
+| Item | Tooltip and Shortcut | Description |
+| :--- | :--- | :--- |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/stop_and_rerun.png "/help/img/idea/2017.2/stop\_and\_rerun.png") | Rerun ⌘R | 单击此按钮停止当前应用程序并再次运行它 . 当应用程序遇到断点停止时 , 用此按钮切换![](https://www.jetbrains.com/help/img/idea/2017.2/debug_resume.png "/help/img/idea/2017.2/debug\_resume.png") |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/debug_resume.png "/help/img/idea/2017.2/debug\_resume.png") | Debug ⌥⌘R | 当停止当前应用程序时 , 单击此按钮再次调试它 . 当一个应用程序正在运行 , 此按钮切换![](https://www.jetbrains.com/help/img/idea/2017.2/stop_and_rerun.png "/help/img/idea/2017.2/stop\_and\_rerun.png") |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/run.png "/help/img/idea/2017.2/run.png") | Resume Program ⌥⌘R | 暂停应用程序时 , 单击此按钮恢复程序执行 .  |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/pause.png "/help/img/idea/2017.2/pause.png") | Pause Program Ctrl+Pause | 单击此按钮可暂停程序的执行 . 注意 : 这个按钮不能用在noded Run/Debug配置上 .  |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/stop.gif "/help/img/idea/2017.2/stop.gif") | Stop ⌘F2 | 单击此按钮将终止当前进程 .  |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/debug_view_breakpoints.gif "/help/img/idea/2017.2/debug\_view\_breakpoints.gif") | View Breakpoints ⇧⌘F8 | 单击此按钮打开可以配置断点行为的断点对话框 .  |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/debug_mute_breakpoints.png "/help/img/idea/2017.2/debug\_mute\_breakpoints.png") | Mute Breakpoints | 使用此按钮切换断点状态 . 当按钮被按下的状态时 , 项目中的所有断点都会被静音 , 并且它们的图标变为灰色 .  |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/debug_layout.png "/help/img/idea/2017.2/debug\_layout.png") | Restore Layout | 单击此按钮 , 放弃对当前布局的更改并返回默认状态 .  |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/projectToolWindowSettingsIcon.png "/help/img/idea/2017.2/projectToolWindowSettingsIcon.png") | Settings | Click this button to open the menu with the following options available:Show Values Inline: select this option to enable the[Inline Debugging](https://www.jetbrains.com/help/phpstorm/2017.2/inline-debugging.html)feature that allows viewing the values of variables right next to their usage in the editor.Sort Values Alphabetically: select this option to sort the values in the[Variables pane](https://www.jetbrains.com/help/phpstorm/2017.2/debug-tool-window-variables.html)in the alphabetical order.Unmute Breakpoints on Session Finish: select this option to re-enable all disabled breakpoints after the debugging session has been finished. |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/pin.png "/help/img/idea/2017.2/pin.png") | Pin | Click this button to pin or unpin the currently selected tab. |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/close.png "/help/img/idea/2017.2/close.png") | Close ⌃⇧F4 | Click this button to close the selected tab. |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/icon_help.png "/help/img/idea/2017.2/icon\_help.png") | Help N/A | Click this button to open the corresponding help page. |
+
 参考内容
 
-https://confluence.jetbrains.com/display/PhpStorm/Debugging+with+PhpStorm
+[https://confluence.jetbrains.com/display/PhpStorm/Debugging+with+PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/Debugging+with+PhpStorm)
 
