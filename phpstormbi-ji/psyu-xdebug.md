@@ -59,10 +59,10 @@ php --ini | grep xdebug
 zend_extension="xdebug.so"
 xdebug.remote_autostart=1
 xdebug.remote_enable=1
-xdebug.remote_host=php.local
+xdebug.remote_host=localhost
 xdebug.remote_port=9009
-xdebug.profiler_enable = 1
-xdebug.profiler_output_dir = "xdebug_log"
+xdebug.profiler_enable=1
+xdebug.profiler_output_dir="xdebug_log"
 xdebug.idekey=PHPSTORM
 ```
 
@@ -86,13 +86,11 @@ xdebug.idekey=PHPSTORM
 
 ![](/assets/idekey.png)
 
-**PhpStorm Xdebug端口及Server配置**
+#### **PhpStorm Xdebug端口及Server配置**
 
-端口
+**端口**
 
-安装了浏览器扩展 , 现在来配置一下Server服务 . Preferences\(command+,\)→ PHP → Debug → Xdebug → Debug port修改为9000\(一般默认就是9000 , 这配置项与php.ini中的xdebug.remote\_port=9000保持一致\) . 
+安装了浏览器扩展 , 现在来配置一下Server服务 . Preferences\(command+,\)→ PHP → Debug → Xdebug → Debug port修改为9000\(一般默认就是9000 , 这配置项与php.ini中的xdebug.remote\_port=9000保持一致\) .
 
-Server
-
-![](/assets/debugserver.png)
+**Server**![](/assets/debugserver.png)
 
