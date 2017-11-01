@@ -31,9 +31,9 @@
     * [快捷键组合拳](phpstormbi-ji/kuai-jie-jian-zu-he-quan.md)
     * [创建敏捷模板](phpstormbi-ji/chuang-jian-min-jie-mo-ban.md)
     * [代码风格与代码质量的提高](phpstormbi-ji/dai-ma-feng-ge-sui-feng-piao.md)
+    * [PHPStorm的Debug\(更新中...\)](phpstormbi-ji/psyu-xdebug.md)
     * [随手重构代码](phpstormbi-ji/sui-shou-zhong-gou-dai-ma.md)
     * [Sublime与Vim合体的感觉](phpstormbi-ji/sublimeyu-vim-he-ti-de-gan-jue.md)
-    * [PHPStorm的Debug\(更新中...\)](phpstormbi-ji/psyu-xdebug.md)
     * [PS与Composer](phpstormbi-ji/psyu-composer.md)
     * [测试与代码覆盖率](phpstormbi-ji/ce-shi-yu-dai-ma-fu-gai-lv.md)
     * PS与版本控制
