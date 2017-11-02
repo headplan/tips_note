@@ -2,5 +2,15 @@
 
 #### 在PhpStorm中创建PHPUnit测试
 
+**测试类生成**
 
+通常, 测试类是符合特定规则的正常 PHP 类 , 例如一个特殊的名称\(HelloTest\) , 测试类继承至PHPUnit\_Framework\_TestCase类 . 
+
+在大多数情况下 , phpstorm可以帮助我们用一组操作快速的创建一个测试类 . 
+
+在phpstorm中新建测试类和常用的软件一样 , 菜单中选择文件-&gt;新建 , 或者在文件\|文件夹右键选择新建 , 还是直接的Command+N方便 . 
+
+![](/assets/creawteasting.png)
+
+一般写上Fully Qualified Name , 其他的都会自动生成 , 这个字段的内容会搜索能找到的类 , 并且形成一种对应的关系 , 这样就可以使用快捷键了 , Command+Shift+T弹出对话框找到根据Fully Qualified Name生成的测试类 , 还可以创建新的测试类 , 跳转到测试类之后 , 再次按快捷键则会退回Fully Qualified Name类 . \(在编辑器中右键菜单的Go to...就是这个功能\) . 
 
