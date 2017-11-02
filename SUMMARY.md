@@ -32,6 +32,7 @@
     * [创建敏捷模板](phpstormbi-ji/chuang-jian-min-jie-mo-ban.md)
     * [代码风格与代码质量的提高](phpstormbi-ji/dai-ma-feng-ge-sui-feng-piao.md)
     * [PHPStorm的Debug\(更新中...\)](phpstormbi-ji/psyu-xdebug.md)
+    * [PHPStorm与Testing](phpstormbi-ji/phpstormyu-testing.md)
     * [随手重构代码](phpstormbi-ji/sui-shou-zhong-gou-dai-ma.md)
     * [Sublime与Vim合体的感觉](phpstormbi-ji/sublimeyu-vim-he-ti-de-gan-jue.md)
     * [PS与Composer](phpstormbi-ji/psyu-composer.md)
@@ -41,7 +42,7 @@
     * [PS的工具窗口都有啥?](phpstormbi-ji/psde-gong-ju-chuang-kou-du-you-55653f.md)
     * [PS与Vagrant](phpstormbi-ji/psyu-vagrant.md)
     * [PS与Docker](phpstormbi-ji/psyu-docker.md)
-    * [PS画画UML图](phpstormbi-ji/pshua-hua-uml-tu.md)
+    * PHPStorm与Testing
 * [开发者工具](开发者工具.md)
   * [Chrome开发者工具](开发者工具/chrome.md)
     * [Device Mode\(设备模式\)](开发者工具/chrome/device-modeshe-bei-mo-5f0f29.md)
