@@ -16,7 +16,7 @@
 
 **测试方法生成**
 
-若要为测试类创建测试方法 , 可以直接使用**Generate**生成器中的**PHPUnit Test Method** , 这个选项可以在编辑器中的右键菜单中可以找到 , 点击顶部菜单的Code也可以找到Generate选项 , 直接使用快捷键的话 , 在编辑器中Command+N呼出菜单 . 这里有时候会失败 , 找不到**PHPUnit Test Method**选项 , 只要从生成她的类中Command+Shift+T跳过来就可以了 , 因为继承了PHPUnit\_Framework\_TestCase类 , 所以还可以直接_**Generate \| Override method**_重写\(这里会列出父类的所有方法\) .
+若要为测试类创建测试方法 , 可以直接使用**Generate**生成器中的**PHPUnit Test Method** , 这个选项可以在编辑器中的右键菜单中可以找到 , 点击顶部菜单的Code也可以找到Generate选项 , 直接使用快捷键的话 , 在编辑器中Command+N呼出菜单 . 这里有时候会失败 , 找不到**PHPUnit Test Method**选项 , 检查是否继承了PHPUnit\_Framework\_TestCase类 , 然后从生成她的类中Command+Shift+T跳过来就可以了 , 因为继承了PHPUnit\_Framework\_TestCase类 , 所以还可以直接_**Generate \| Override method**_重写\(这里会列出父类的所有方法\) .
 
 ![](/assets/untigenerate.png)
 
