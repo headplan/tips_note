@@ -1,5 +1,11 @@
 # PHPStorm的Testing
 
+### PHPUnit
+
+通过单元测试 , 我们可以验证部分源代码是否按预期方式工作 . 在我们修改代码或执行重构后 , 单元测试可以告诉我们所做的更改是否会破坏现有功能 . 只有当所有测试都是"绿色"\(所有测试通过\)时 , 我们才能确保我们没有破坏代码的功能 . 
+
+这里我们使用 PHPUnit 作为测试运行器 , 她是一个广泛使用的PHP单元测试框架 , 提供了许多功能 . 下面让我们看看它是如何与 PhpStorm集成的 . 
+
 #### 在PhpStorm中创建PHPUnit测试
 
 **测试类生成**
@@ -19,4 +25,8 @@
 若要为测试类创建测试方法 , 可以直接使用**Generate**生成器中的**PHPUnit Test Method** , 这个选项可以在编辑器中的右键菜单中可以找到 , 点击顶部菜单的Code也可以找到Generate选项 , 直接使用快捷键的话 , 在编辑器中Command+N呼出菜单 . 这里有时候会失败 , 找不到**PHPUnit Test Method**选项 , 检查是否继承了PHPUnit\_Framework\_TestCase类 , 然后从生成她的类中Command+Shift+T跳过来就可以了 , 因为继承了PHPUnit\_Framework\_TestCase类 , 所以还可以直接_**Generate \| Override method**_重写\(这里会列出父类的所有方法\) .
 
 ![](/assets/untigenerate.png)
+
+#### 为项目启用PHPUnit
+
+
 
