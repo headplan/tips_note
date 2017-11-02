@@ -12,9 +12,11 @@
 
 ![](/assets/creawteasting.png)
 
-一般写上Fully Qualified Name , 其他的都会自动生成 , 这个字段的内容会搜索能找到的类 , 并且形成一种对应的关系 , 这样就可以使用快捷键了 , Command+Shift+T弹出对话框找到根据Fully Qualified Name生成的测试类 , 还可以创建新的测试类 , 跳转到测试类之后 , 再次按快捷键则会退回Fully Qualified Name类 . \(在编辑器中右键菜单的Go to...就是这个功能\) . 其实只要满足了新建的文件的类名是要测试的类名+Test即可跳转 , 还有如果类继承了PHPUnit\_Framework\_TestCase , 就无法使用Command+Shift+T或新建创建的方式快速创建当前类的测试 . \(快速的意思是为User类创建测试类 , 新建时会有UserTest选项\) . 
+一般写上Fully Qualified Name , 其他的都会自动生成 , 这个字段的内容会搜索能找到的类 , 并且形成一种对应的关系 , 这样就可以使用快捷键了 , Command+Shift+T弹出对话框找到根据Fully Qualified Name生成的测试类 , 还可以创建新的测试类 , 跳转到测试类之后 , 再次按快捷键则会退回Fully Qualified Name类 . \(在编辑器中右键菜单的Go to...就是这个功能\) . 其实只要满足了新建的文件的类名是要测试的类名+Test即可跳转 , 还有如果类继承了PHPUnit\_Framework\_TestCase , 就无法使用Command+Shift+T或新建创建的方式快速创建当前类的测试 . \(快速的意思是为User类创建测试类 , 新建时会有UserTest选项\) .
 
 **测试方法生成**
 
-若要为测试类创建测试方法 , 可以直接使用**Generate**生成器中的**PHPUnit Test Method** , 这个选项可以在编辑器中的右键菜单中可以找到 , 点击顶部菜单的Code也可以找到Generate选项 , 直接使用快捷键的话 , 在编辑器中Command+N呼出菜单 . 这里有时候会失败 , 找不到**PHPUnit Test Method**选项 , 只要从生成她的类中Command+Shift+T跳过来就可以了 , 因为继承了PHPUnit\_Framework\_TestCase类 , 所以还可以直接_**Generate \| Override method**_重写\(这里会列出父类的所有方法\) . 
+若要为测试类创建测试方法 , 可以直接使用**Generate**生成器中的**PHPUnit Test Method** , 这个选项可以在编辑器中的右键菜单中可以找到 , 点击顶部菜单的Code也可以找到Generate选项 , 直接使用快捷键的话 , 在编辑器中Command+N呼出菜单 . 这里有时候会失败 , 找不到**PHPUnit Test Method**选项 , 只要从生成她的类中Command+Shift+T跳过来就可以了 , 因为继承了PHPUnit\_Framework\_TestCase类 , 所以还可以直接_**Generate \| Override method**_重写\(这里会列出父类的所有方法\) .
+
+![](/assets/untigenerate.png)
 
