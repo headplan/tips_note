@@ -51,7 +51,7 @@ $ composer require phpunit/phpunit
 
 **配置PHPUnit**
 
-安装完成后 , Command+,配置测试框架 . 
+安装完成后 , `Command+,`配置测试框架 .
 
-![](/assets/testframeworks.png)
+![](/assets/testframeworks.png)填写Composer生成的自动加载路径 , 点击右侧的刷新按钮即可 . 下面还可以指定在运行测试时默认的 PHPUnit 配置文件或 PHPUnit 引导文件 . 
 
