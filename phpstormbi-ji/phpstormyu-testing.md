@@ -28,7 +28,7 @@
 
 #### 为项目启用PHPUnit
 
-正如前面看到的 , 继承的PHPUnit\_Framework\_TestCase类还无法Override重写 , 因为还没有为项目配置PHPUnit . 我们可以用多种方式引入PHPUnit , 根据个人喜好 . 
+正如前面看到的 , 继承的PHPUnit\_Framework\_TestCase类还无法Override重写 , 因为还没有为项目配置PHPUnit . 我们可以用多种方式引入PHPUnit , 根据个人喜好 .
 
 * 通过Composer安装
 * 直接下载PHPUnit的打包phar文件 , 并在项目的单元测试中引入
@@ -38,14 +38,20 @@
 
 **Composer配置**
 
-PHPUnit3.7版本之后就可以使用Composer安装了 , 可以手动安装 , 也可以使用PHPStorm中的Composer工具安装 . 这里直接命令行安装了 : 
+PHPUnit3.7版本之后就可以使用Composer安装了 , 可以手动安装 , 也可以使用PHPStorm中的Composer工具安装 . 这里直接命令行安装了 :
 
 ```
 $ composer init
-$ composer require phpunit/phpunit 
+$ composer require phpunit/phpunit
 ```
 
-安装完成 , 就是这么方便 . 
+安装完成 , 就是这么方便 .
 
-如果你要使用PHPStrom的图形界面 , 可以在**Tools \| Composer \| Init Composer**中找到 . 
+如果你要使用PHPStrom的图形界面 , 可以在**Tools \| Composer \| Init Composer**中找到 .
+
+**配置PHPUnit**
+
+安装完成后 , Command+,配置测试框架 . 
+
+![](/assets/testframeworks.png)
 
