@@ -94,5 +94,5 @@ $ composer require phpunit/phpunit
 </phpunit>
 ```
 
-
+所以的测试结果都会生成文件到coverage文件夹 , 同时PHPStorm的边栏上还会显示当前文件的测试百分比 , 同时标注颜色区分 . 
 
