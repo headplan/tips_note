@@ -65,13 +65,13 @@ $ composer require phpunit/phpunit
 
 在 PhpStorm 中运行 PHPUnit 测试的最简单方法是右键单击测试 , 然后选择 "运行测试名称" . 可以通过在编辑器中直接单击它或在项目工具窗口中选择类文件来运行测试类/单独的方法 . 一旦运行 , PHPUnit 运行配置将被自动创建 , 可以查看`Run>Edit configurations...`它应该出现在 PHPUnit 节点下, 并以我们运行的测试文件命名 .
 
-![](/assets/createphpunit.png)当一切准备好 , 右键Run脚本即可查看测试的结果了 . 下方的测试结果窗口 , 和debug的类似 , 这里暂时不过多描述了 . 
+![](/assets/createphpunit.png)当一切准备好 , 右键Run脚本即可查看测试的结果了 . 下方的测试结果窗口 , 和debug的类似 , 可以分层的追代码 , 这里暂时不过多描述了 .
 
 ---
 
 #### 代码覆盖率\(code coverage\)
 
-右键或者Run运行代码下还有一个选项with coverage , 运行后就可以看到弹出的Coverage PHPUnit窗口 . 这里可以在phpunit.xml中配置一下生成coverage的路径 . 然后在Languages & Frameworks中配置phpunit.xml路径 : 
+右键或者Run运行代码下还有一个选项with coverage , 运行后就可以看到弹出的Coverage PHPUnit窗口 . 这里可以在phpunit.xml中配置一下生成coverage的路径 . 然后在Languages & Frameworks中配置phpunit.xml路径 :
 
 ![](/assets/runcoverage.png)
 
