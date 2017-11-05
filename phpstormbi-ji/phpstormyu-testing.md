@@ -55,9 +55,15 @@ $ composer require phpunit/phpunit
 
 ![](/assets/testframeworks.png)填写Composer生成的自动加载路径 , 点击右侧的刷新按钮即可 . 下面还可以指定在运行测试时默认的 PHPUnit 配置文件或 PHPUnit 引导文件 .
 
-> Phar包可以去http://www.phpunit.de/下载
+> Phar包可以去[http://www.phpunit.de/下载](http://www.phpunit.de/下载)
 
+现在就可以开始写测试用例了 , 这里可以查看php\_note中关于PHPUnit的记录 . 
 
+---
 
+#### 运行单元测试
 
+在 PhpStorm 中运行 PHPUnit 测试的最简单方法是右键单击测试 , 然后选择 "运行测试名称" . 可以通过在编辑器中直接单击它或在项目工具窗口中选择类文件来运行测试类/单独的方法 . 一旦运行 , PHPUnit 运行配置将被自动创建 , 可以查看`Run>Edit configurations...`它应该出现在 PHPUnit 节点下, 并以我们运行的测试文件命名 . 
+
+![](/assets/createphpunit.png)
 
