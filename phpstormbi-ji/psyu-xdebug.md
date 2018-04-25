@@ -1,4 +1,4 @@
-# PHPStorm的Debug
+# PHPStorm的Debug配置
 
 PHPStorm配置Debug , 进入配置`Command+,`然后选择`Languages & Frameworks`选项的PHP栏目 , 第一个就是`Debug`的配置 . 里面已经写了详细的配置步骤 .
 
@@ -13,6 +13,8 @@ brew install homebrew/php/php<version number>-xdebug
 # 例如
 brew install homebrew/php/php56-xdebug
 ```
+
+如果是远程服务器或测试服务器 , 同样安装即可 , 可以查看PHP Note中的XDebug的安装章节 . 
 
 安装之后 , 使用命令检查
 
@@ -32,9 +34,13 @@ with Xdebug v2.5.4, Copyright (c) 2002-2017, by Derick Rethans
 php -dxdebug.remote_enable=1 -dxdebug.remote_mode=req -dxdebug.remote_port=9000 -dxdebug.remote_host=127.0.0.1 ./test.php
 ```
 
-同时会在Edit Configurations中新建一个PHP Script的配置 . 这里的Edit Configurations , 也就是Run中的前几个选项 :
+如果配置了远程服务器或测试服务器 , 需要在`CLI Interpreter`中添加远程配置并选择\(当然远程服务器也是安装了XDebug的\) : 
 
-![](/assets/rundit2.png)
+![](/assets/xdebug-2.png)
+
+同时会在`Edit Configurations`中新建一个`PHP Script`的配置 . 这里的`Edit Configurations` , 也就是`Run`中的前几个选项 :
+
+![](/assets/xdebug-1.jpg)
 
 其中的Run , Debug等 , 都是为了快速创建配置好的运行路径脚本或者Debug路径脚本的 , 直接Edit Configurations , 就可以创建预设的Run或者Debug脚本配置了 , 其中有很多默认的配置可以添加 . ![](/assets/editdefaultrun.png)
 
@@ -143,8 +149,8 @@ test.io/?XDEBUG_SESSION_START=11886
 
 | Item | Tooltip and Shortcut | Description |
 | :--- | :--- | :--- |
-| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_show_execution_point.png "/help/img/idea/2017.2/frames\_show\_execution\_point.png") | Show Execution Point ⌥F10 | 单击此按钮突出显示编辑器中的当前执行点和显示帧对应的堆栈空间 .  |
-| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_step_over.png "/help/img/idea/2017.2/frames\_step\_over.png") | Step Over F8 | 单击此按钮执行程序直到当前方法或文件的下一行 , 跳过当前执行点引用的方法\(如果有的话\) . 如果当前行是方法中的最后一行 , 则在该方法之后立即执行到该行的执行步骤 .  |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_show_execution_point.png "/help/img/idea/2017.2/frames\_show\_execution\_point.png") | Show Execution Point ⌥F10 | 单击此按钮突出显示编辑器中的当前执行点和显示帧对应的堆栈空间 . |
+| ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_step_over.png "/help/img/idea/2017.2/frames\_step\_over.png") | Step Over F8 | 单击此按钮执行程序直到当前方法或文件的下一行 , 跳过当前执行点引用的方法\(如果有的话\) . 如果当前行是方法中的最后一行 , 则在该方法之后立即执行到该行的执行步骤 . |
 | ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_step_into.png "/help/img/idea/2017.2/frames\_step\_into.png") | Step Into F7 | 单击此按钮使调试器步骤进入当前执行点调用的方法 |
 | ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_force_step_into.png "/help/img/idea/2017.2/frames\_force\_step\_into.png") | Force Step Into ⌥⇧F7 | 单击此按钮使调试器步骤进入当前执行点中调用的方法 , 即使此方法将被跳过 |
 | ![](https://www.jetbrains.com/help/img/idea/2017.2/frames_step_out.png "/help/img/idea/2017.2/frames\_step\_out.png") | Step Out ⇧F8 | 单击此按钮使调试器跳出当前方法 , 然后立即执行该行 |

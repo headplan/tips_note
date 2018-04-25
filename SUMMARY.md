@@ -36,13 +36,12 @@
     * [随手重构代码](phpstormbi-ji/sui-shou-zhong-gou-dai-ma.md)
     * [Sublime与Vim合体的感觉](phpstormbi-ji/sublimeyu-vim-he-ti-de-gan-jue.md)
     * [PS与Composer](phpstormbi-ji/psyu-composer.md)
-    * [测试与代码覆盖率](phpstormbi-ji/ce-shi-yu-dai-ma-fu-gai-lv.md)
-    * PS与版本控制
-    * PS与数据库
+    * [PS与版本控制](phpstormbi-ji/psyu-ban-ben-kong-zhi.md)
+    * [PS与数据库](phpstormbi-ji/psyu-shu-ju-ku.md)
     * [PS的工具窗口都有啥?](phpstormbi-ji/psde-gong-ju-chuang-kou-du-you-55653f.md)
     * [PS与Vagrant](phpstormbi-ji/psyu-vagrant.md)
     * [PS与Docker](phpstormbi-ji/psyu-docker.md)
-    * PHPStorm与Testing
+    * [PHPStorm与Testing](phpstormbi-ji/phpstormyu-testing.md)
 * [开发者工具](开发者工具.md)
   * [Chrome开发者工具](开发者工具/chrome.md)
     * [Device Mode\(设备模式\)](开发者工具/chrome/device-modeshe-bei-mo-5f0f29.md)
