@@ -47,6 +47,7 @@
     * [Device Mode\(设备模式\)](开发者工具/chrome/device-modeshe-bei-mo-5f0f29.md)
     * [Elements\(元素面板\)](开发者工具/chrome/elements.md)
   * [Charles](开发者工具/charles.md)
+    * [辅助调试接口](开发者工具/charles/fu-zhu-diao-shi-jie-kou.md)
 * [Kali常用工具](chang-yong-gong-ju.md)
   * [iTerm和Oh My Zsh](chang-yong-gong-ju/itermhe-oh-my-zsh.md)
 
