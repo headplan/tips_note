@@ -58,7 +58,17 @@ Throttle preseset - 中是一些常用的限速配置 .
 
 不想发起某些请求 , 直接设置黑名单 , 返回404 .
 
-选择Tools-&gt;Black List , 当然 , 还有对应的白名单 , White List . 
+选择Tools-&gt;Black List , 当然 , 还有对应的白名单 , White List .
 
 ![](/assets/Black List.png)
+
+#### 设置DNS欺骗
+
+说的简单点就是把域名解析到一个假的IP上 . 
+
+选择Tools-&gt;DNS Spoofing . 
+
+![](/assets/DNS Spoofing.png)
+
+
 
