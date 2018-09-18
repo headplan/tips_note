@@ -40,5 +40,11 @@ Throttle preseset - 中是一些常用的限速配置 .
 
 ![](/assets/Map Remote.png)
 
+#### 截获请求直接返回本地的文件内容
+
+如果没有本地server , 可以使用这种方式 . 
+
+![](/assets/Map Local.png)
+
 
 
