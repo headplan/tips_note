@@ -52,5 +52,13 @@ Throttle preseset - 中是一些常用的限速配置 .
 
 ![](/assets/Rewrite.png)
 
-设置一个Setting的名字 , 然后添加要拦截的请求 , 下面设置规则类型 . 
+设置一个Setting的名字 , 然后添加要拦截的请求 , 下面设置规则类型 .
+
+#### 设置请求的黑名单
+
+不想发起某些请求 , 直接设置黑名单 , 返回404 . 
+
+选择Tools-&gt;Black List
+
+![](/assets/Black List.png)
 
