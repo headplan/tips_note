@@ -16,3 +16,13 @@
 
 填写好之后 , 随便打开一个软件 , Charles就会弹出一个提示框 , 问是否同意通过本机代理上网 . 
 
+之后打开app , 就可以查看接口了 . 
+
+#### 模拟慢网速请求
+
+选择Proxy-&gt;Throtting Setting , 打开后如下图设置 : 
+
+![](/assets/Throtting.png)
+
+
+
