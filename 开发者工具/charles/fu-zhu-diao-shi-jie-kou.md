@@ -36,7 +36,7 @@ Throttle preseset - 中是一些常用的限速配置 .
 
 在后台没写好的情况下 , 可以临时将请求转到指定的或者本地的server上 . 
 
+选择Tools-&gt;Map Local打开设计界面 : 
 
-
-
+![](/assets/Map Remote.png)
 
