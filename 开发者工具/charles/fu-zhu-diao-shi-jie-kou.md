@@ -74,9 +74,7 @@ Throttle preseset - 中是一些常用的限速配置 .
 
 可以做缓存数据用 , 让app在没有Server的时候也能跑 . 
 
-选择Tools-&gt;Mirror : 
+选择Tools-&gt;Mirror :
 
 ![](/assets/Mirror.png)
-
-
 
