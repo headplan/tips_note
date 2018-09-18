@@ -20,6 +20,8 @@
 
 #### 模拟慢网速请求
 
+测试多环境 , 特别是在慢网速下的case , 可以使用 . 
+
 选择Proxy-&gt;Throtting Setting , 打开后如下图设置 :
 
 ![](/assets/Throtting.png)
@@ -29,4 +31,8 @@ Enable Throttling - 设置开启限速 .
 Only for selected hosts - 设置只针对指定的URL限速 .
 
 Throttle preseset - 中是一些常用的限速配置 .
+
+#### 截获请求转到指定的地址
+
+
 
