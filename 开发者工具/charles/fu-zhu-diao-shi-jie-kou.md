@@ -64,11 +64,19 @@ Throttle preseset - 中是一些常用的限速配置 .
 
 #### 设置DNS欺骗
 
-说的简单点就是把域名解析到一个假的IP上 . 
+说的简单点就是把域名解析到一个假的IP上 .
 
-选择Tools-&gt;DNS Spoofing . 
+选择Tools-&gt;DNS Spoofing .
 
 ![](/assets/DNS Spoofing.png)
+
+#### 缓存请求返回的内容
+
+可以做缓存数据用 , 让app在没有Server的时候也能跑 . 
+
+选择Tools-&gt;Mirror : 
+
+![](/assets/Mirror.png)
 
 
 
