@@ -24,9 +24,9 @@
 
 ![](/assets/Throtting.png)
 
-Enable Throttling 设置开启限速 . 
+Enable Throttling - 设置开启限速 .
 
-Only for selected hosts 设置只针对指定的URL限速 . 
+Only for selected hosts - 设置只针对指定的URL限速 .
 
-Throttle preseset 中是一些常用的限速配置 . 
+Throttle preseset - 中是一些常用的限速配置 .
 
