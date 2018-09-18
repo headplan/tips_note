@@ -56,9 +56,9 @@ Throttle preseset - 中是一些常用的限速配置 .
 
 #### 设置请求的黑名单
 
-不想发起某些请求 , 直接设置黑名单 , 返回404 . 
+不想发起某些请求 , 直接设置黑名单 , 返回404 .
 
-选择Tools-&gt;Black List
+选择Tools-&gt;Black List , 当然 , 还有对应的白名单 , White List . 
 
 ![](/assets/Black List.png)
 
