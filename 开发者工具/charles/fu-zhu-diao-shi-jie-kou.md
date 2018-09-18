@@ -42,9 +42,15 @@ Throttle preseset - 中是一些常用的限速配置 .
 
 #### 截获请求直接返回本地的文件内容
 
-如果没有本地server , 可以使用这种方式 . 
+如果没有本地server , 可以使用这种方式 .
 
 ![](/assets/Map Local.png)
+
+#### 截获请求修改请求信息
+
+截获请求并修改 . 
+
+![](/assets/Rewrite.png)
 
 
 
