@@ -9,6 +9,7 @@
 * EditorConfig - 跨编辑器配置 [http://editorconfig.org/](http://editorconfig.org/)
 * PHP composer.json support - composer.json文件提示
 * .env files support - env文件管理工具
+* leetcode editor - leetcode练习工具
 
 
 
