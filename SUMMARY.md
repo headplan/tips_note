@@ -1,7 +1,7 @@
 # Summary
 
 * [Tips Note](README.md)
-* [命令行工具](chapter1.md)
+* [Console](chapter1.md)
   * [Vim](vim.md)
     * [像IDE一样使用vim](xiangideyiyangshiyongvim.md)
     * [vimrc配置](vimrc-peizhi.md)
@@ -38,7 +38,7 @@
     * [PHPStorm与Testing](phpstormbi-ji/phpstormyu-testing.md)
   * [Sublime](sublime.md)
   * [Atom](atom.md)
-* [开发者工具](kaifazhegongju.md)
+* [Development](kaifazhegongju.md)
   * [Chrome开发者工具](kaifazhegongju/chrome.md)
     * [Device Mode\(设备模式\)](kaifazhegongju/chrome/device-modeshe-bei-mo-5f0f29.md)
     * [Elements\(元素面板\)](kaifazhegongju/chrome/elements.md)
