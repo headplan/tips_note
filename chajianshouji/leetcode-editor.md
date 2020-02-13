@@ -73,7 +73,7 @@
 
 #### 工具栏
 
-* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/login.png "login")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/login.png)`登录`: 两个网站的登录帐号不互通 , 切换网站需配置对应的用户
+* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/login.png "login")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/login.png) `登录`: 两个网站的登录帐号不互通 , 切换网站需配置对应的用户
 * [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/logout.png "logout")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/logout.png)`退出`: 退出当前账户 , 如遇到登录错误,尝试先进行退出
 * [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/refresh.png "refresh")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/refresh.png)`刷新`: 在未登录的情况下也可查看刷新加载题目 , 但是无法提交
 * ![](/assets/pickone.png) `随机`: 随机选择并定位一道题
@@ -98,5 +98,7 @@
 
 符号 : 题目前`√`与`?`代表当前题目解答状态 , 探索下有`$`开头的为付费或者其他情况下无法查看的内容
 
+### 菜单
 
+![](/assets/leetcodecaidan.png)
 
