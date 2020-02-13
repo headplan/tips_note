@@ -27,7 +27,7 @@
 
 **Password **: 登录密码
 
-**proxy\(HTTP Proxy\)** : 使用http代理 , 
+**proxy\(HTTP Proxy\)** : 使用http代理 ,
 
 * 配置路径 : `File -> settings -> Appearance & Behavior -> System Settings -> HTTP Proxy`
 
@@ -57,6 +57,15 @@
 * ${question.content} : 题目描述内容
 * ${question.code} : 题目代码部分
 * $!velocityTool.camelCaseName\(str\) : 一个函数 , 用来将字符串转化为驼峰样式
+
+> **注意**
+>
+> 在生成的自定义代码中包含两行关键信息 : 
+>
+> * `leetcode submit region begin(Prohibit modification and deletion)`: 提交到leetcode进行验证的代码开始标记
+> * `leetcode submit region end(Prohibit modification and deletion)`: 提交到leetcode进行验证的代码结束标记
+>
+> 这两行标记标示了提交到leetcode服务器进行验证的代码范围 , 在此范围内只允许有出现与题目解答相关的内容 , 出现其他内容可能导致leetcode验证不通过 . 除了此范围内 , 其他区域是可以任意填写的 , 内容不会提交到leetcode , 可以增加一些可以本地调试的内容等 .
 
 
 
