@@ -20,6 +20,7 @@
       * [编辑器](gongnengyingyong/bianjiqi.md)
     * [常用快捷键](changyongkuaijiejian.md)
     * [插件收集](chajianshouji.md)
+      * [leetcode editor](chajianshouji/leetcode-editor.md)
   * [PHPStorm Tips](phpstormbi-ji.md)
     * [精简你的PHPStrom](phpstormbi-ji/jing-jian-ni-de-phpstrom.md)
     * [快捷键组合拳](phpstormbi-ji/kuai-jie-jian-zu-he-quan.md)
