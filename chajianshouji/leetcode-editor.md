@@ -71,16 +71,32 @@
 
 ![](/assets/leetcodechuangkou.png)
 
-**工具栏**:
+#### 工具栏
 
-* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/login.png "login")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/login.png)**`登录`**: 两个网站的登录帐号不互通 , 切换网站需配置对应的用户
-* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/logout.png "logout")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/logout.png)**`退出`**: 退出当前账户 , 如遇到登录错误,尝试先进行退出
-* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/refresh.png "refresh")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/refresh.png)**`刷新`**: 在未登录的情况下也可查看刷新加载题目 , 但是无法提交
-* ![](/assets/pickone.png) **`随机`**: 随机选择并定位一道题
-* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/find.png "find")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/find.png)**`查找`**: 输入内容后回车搜索 , 再次回车搜索下一个 , 只会搜索题库节点下
-* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/collapseAll.png "collapse")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/collapseAll.png)**`折叠`**: 折叠全部节点
-* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/config.png "config")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/config.png)**`配置`**: 快捷跳转到配置界面
-* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/clear.png "clear")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/clear.png)**`清理`**: 清理配置的缓存目录下的文件 , 两个网站对应的缓存目录不同 , 只会清理当前配置的网站下的 . 部分题目未提交的情况下慎重清理
+* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/login.png "login")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/login.png)`登录`: 两个网站的登录帐号不互通 , 切换网站需配置对应的用户
+* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/logout.png "logout")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/logout.png)`退出`: 退出当前账户 , 如遇到登录错误,尝试先进行退出
+* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/refresh.png "refresh")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/refresh.png)`刷新`: 在未登录的情况下也可查看刷新加载题目 , 但是无法提交
+* ![](/assets/pickone.png) `随机`: 随机选择并定位一道题
+* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/find.png "find")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/find.png)`查找`: 输入内容后回车搜索 , 再次回车搜索下一个 , 只会搜索题库节点下
+* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/collapseAll.png "collapse")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/collapseAll.png)`折叠`: 折叠全部节点
+* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/config.png "config")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/config.png)`配置`: 快捷跳转到配置界面
+* [![](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/clear.png "clear")](https://raw.githubusercontent.com/shuzijun/leetcode-editor/master/doc/clear.png)`清理`: 清理配置的缓存目录下的文件 , 两个网站对应的缓存目录不同 , 只会清理当前配置的网站下的 . 部分题目未提交的情况下慎重清理
+
+#### 目录
+
+* Problems : 全部题目
+* Difficulty : 难度分类
+* Status : 完成状态
+  * Todo : 待解答的题目
+  * sovle : 已解答的题目
+  * attempted : 未通过的题目
+* Lists : 题库列表
+* Tags : 类型分类
+* Explore : 探索内容 , 只包含题目 , 收费内容不支持 ; 部分题目加载有顺序限制
+
+颜色 : 题目颜色代表题目难度\(默认 : 绿黄红\)
+
+符号 : 题目前`√`与`?`代表当前题目解答状态 , 探索下有`$`开头的为付费或者其他情况下无法查看的内容
 
 
 
