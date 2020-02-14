@@ -102,25 +102,16 @@
 
 ![](/assets/leetcodecaidan.png)
 
-open question : 打开题目 , 在题目上双击也可以打开
-
-open content : 查看描述 , 包含图片 \(依赖 Markdown\)
-
-open in web : 打开leetcode网站对应的题目
-
-Submit : 提交题目
-
-Submissions : 查看提交记录 , 在弹出的窗口上选择记录查看详情 \(Show detail\)
-
-Run Code : 运行代码 , 默认使用题目的测试用例
-
-Testcase : 自定义测试用例
-
-Favorite : 添加或移除收藏 , 会在目录的Lists中显示
-
-Timer : 计时器 , 开启后在右下角状态栏提示解题时间
-
-Clear cache : 清理当前题目
+* open question : 打开题目 , 在题目上双击也可以打开
+* open content : 查看描述 , 包含图片 \(依赖 Markdown\)
+* open in web : 打开leetcode网站对应的题目
+* Submit : 提交题目
+* Submissions : 查看提交记录 , 在弹出的窗口上选择记录查看详情 \(Show detail\)
+* Run Code : 运行代码 , 默认使用题目的测试用例
+* Testcase : 自定义测试用例
+* Favorite : 添加或移除收藏 , 会在目录的Lists中显示
+* Timer : 计时器 , 开启后在右下角状态栏提示解题时间
+* Clear cache : 清理当前题目
 
 
 

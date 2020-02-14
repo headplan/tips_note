@@ -39,6 +39,7 @@
     * [PHPStorm与Testing](phpstormbi-ji/phpstormyu-testing.md)
   * [Sublime](sublime.md)
   * [Atom](atom.md)
+  * [VSCode](vscode.md)
 * [Development](kaifazhegongju.md)
   * [Chrome开发者工具](kaifazhegongju/chrome.md)
     * [Device Mode\(设备模式\)](kaifazhegongju/chrome/device-modeshe-bei-mo-5f0f29.md)
